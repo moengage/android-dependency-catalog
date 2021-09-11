@@ -47,8 +47,8 @@ publishing {
                     }
                 }
                 scm {
-                    connection.set("scm:git@github.com:moengage/MoEngage-Android-SDK.git")
-                    developerConnection.set("scm:git@github.com:moengage/MoEngage-Android-SDK.git")
+                    connection.set("scm:git@github.com:moengage/android-dependency-catalog.git")
+                    developerConnection.set("scm:git@github.com:moengage/android-dependency-catalog.git")
                     url.set("https://moengage.com")
                 }
             }
