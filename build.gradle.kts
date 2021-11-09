@@ -19,14 +19,14 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("11.4.01")
+        alias("core").to("com.moengage", "moe-android-sdk").version("11.4.02")
         alias("cards").to("com.moengage", "cards").version("2.1.00")
-        alias("geofence").to("com.moengage", "geofence").version("1.2.00")
-        alias("pushKit").to("com.moengage", "hms-pushkit").version("2.4.00")
+        alias("geofence").to("com.moengage", "geofence").version("1.2.1")
+        alias("pushKit").to("com.moengage", "hms-pushkit").version("3.0.0")
         alias("inboxCore").to("com.moengage", "inbox-core").version("1.0.00")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("1.0.01")
         alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("3.2.00")
-        alias("richNotification").to("com.moengage", "rich-notification").version("2.3.00")
+        alias("richNotification").to("com.moengage", "rich-notification").version("2.4.0")
         alias("security").to("com.moengage", "security").version("1.0.00")
         bundle("all", listOf("core", "cards", "geofence", "pushKit", "inboxUi", "pushAmpPlus", "richNotification", "security"))
     }
@@ -40,7 +40,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "1.0.1"
+            version = "1.0.2"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
