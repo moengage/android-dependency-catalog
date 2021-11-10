@@ -1,4 +1,4 @@
-## 1.0.2 
+## 1.0.2 (10-11-2021)
 - Core SDK Version Updated to `11.4.02` [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#11-4-02-09-11-2021--0-0)
 - Rich Notification version updated to `2.4.0`
 - Geofence version updated to `1.2.1`
