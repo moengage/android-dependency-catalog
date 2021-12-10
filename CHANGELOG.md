@@ -1,3 +1,6 @@
+## 1.0.4 (10-12-2021)
+- Push Amp Plus dependency updated to 4.0.1 [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#xiaomi-push-4-0-1-10-12-2021--0-0)
+
 ## 1.0.3 (01-12-2021)
 - Push amp Plus dependency updated to `4.0.0` [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#xiaomi-push-4-0-0-01-12-2021--0-0)
 

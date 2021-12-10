@@ -25,7 +25,7 @@ catalog {
         alias("pushKit").to("com.moengage", "hms-pushkit").version("3.0.0")
         alias("inboxCore").to("com.moengage", "inbox-core").version("1.0.00")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("1.0.01")
-        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("4.0.0")
+        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("4.0.1")
         alias("richNotification").to("com.moengage", "rich-notification").version("2.4.0")
         alias("security").to("com.moengage", "security").version("1.0.00")
         bundle("all", listOf("core", "cards", "geofence", "pushKit", "inboxUi", "pushAmpPlus", "richNotification", "security"))
@@ -40,7 +40,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "1.0.3"
+            version = "1.0.4"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
