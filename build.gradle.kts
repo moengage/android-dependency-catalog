@@ -19,16 +19,21 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("11.4.02")
-        alias("cards").to("com.moengage", "cards").version("2.1.00")
-        alias("geofence").to("com.moengage", "geofence").version("1.2.1")
-        alias("pushKit").to("com.moengage", "hms-pushkit").version("3.0.0")
-        alias("inboxCore").to("com.moengage", "inbox-core").version("1.0.00")
-        alias("inboxUi").to("com.moengage", "inbox-ui").version("1.0.01")
-        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("4.0.1")
-        alias("richNotification").to("com.moengage", "rich-notification").version("2.4.0")
-        alias("security").to("com.moengage", "security").version("1.0.00")
-        bundle("all", listOf("core", "cards", "geofence", "pushKit", "inboxUi", "pushAmpPlus", "richNotification", "security"))
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.0.00")
+        alias("cardsCore").to("com.moengage", "cards-core").version("1.0.0")
+        alias("cardsUi").to("com.moengage", "cards-ui").version("1.0.0")
+        alias("geofence").to("com.moengage", "geofence").version("2.0.0")
+        alias("inapp").to("com.moengage", "inapp").version("6.0.0")
+        alias("inboxCore").to("com.moengage", "inbox-core").version("2.0.0")
+        alias("inboxUi").to("com.moengage", "inbox-ui").version("2.0.0")
+        alias("pushKit").to("com.moengage", "hms-pushkit").version("4.0.0")
+        alias("pushAmp").to("com.moengage", "push-amp").version("4.0.0")
+        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("5.0.0")
+        alias("realTimeTrigger").to("com.moengage", "realtime-trigger").version("2.0.0")
+        alias("richNotification").to("com.moengage", "rich-notification").version("3.0.0")
+        alias("security").to("com.moengage", "security").version("2.0.0")
+        bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
+            "pushAmpPlus", "realTimeTrigger", "richNotification", "security"))
     }
 }
 
@@ -40,7 +45,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "1.0.4"
+            version = "2.0.0"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
