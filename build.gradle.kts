@@ -19,7 +19,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("11.4.03")
+        alias("core").to("com.moengage", "moe-android-sdk").version("11.4.04")
         alias("cards").to("com.moengage", "cards").version("2.1.00")
         alias("geofence").to("com.moengage", "geofence").version("1.2.2")
         alias("pushKit").to("com.moengage", "hms-pushkit").version("3.0.0")
@@ -40,7 +40,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "1.0.5"
+            version = "1.0.6"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
