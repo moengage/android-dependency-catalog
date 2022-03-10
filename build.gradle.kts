@@ -29,7 +29,7 @@ catalog {
         alias("pushKit").to("com.moengage", "hms-pushkit").version("4.0.0")
         alias("pushAmp").to("com.moengage", "push-amp").version("4.0.0")
         alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("5.0.0")
-        alias("realTimeTrigger").to("com.moengage", "realtime-trigger").version("2.0.0")
+        alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.0.0")
         alias("richNotification").to("com.moengage", "rich-notification").version("3.0.0")
         alias("security").to("com.moengage", "security").version("2.0.0")
         bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
