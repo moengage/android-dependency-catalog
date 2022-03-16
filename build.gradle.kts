@@ -33,7 +33,7 @@ catalog {
         alias("richNotification").to("com.moengage", "rich-notification").version("3.0.0")
         alias("security").to("com.moengage", "security").version("2.0.0")
         bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
-            "pushAmpPlus", "realTimeTrigger", "richNotification", "security"))
+            "pushAmpPlus", "deviceTrigger", "richNotification", "security"))
     }
 }
 
