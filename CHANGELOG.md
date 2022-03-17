@@ -1,3 +1,6 @@
+## 2.1.0 (17-03-2022)
+- Added Geofence Android 12 to the catalog.
+
 ## 2.0.0 (16-03-2022)
 - Core SDK version updated to `12.0.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-0-00-16-03-2022--0-0)
 
