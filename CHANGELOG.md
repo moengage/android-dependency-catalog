@@ -1,4 +1,4 @@
-## 2.0.0
+## 2.0.0 (16-03-2022)
 - Core SDK version updated to `12.0.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-0-00-16-03-2022--0-0)
 
 ## 1.1.0(08-03-2022)
