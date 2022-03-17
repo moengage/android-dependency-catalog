@@ -32,6 +32,7 @@ catalog {
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.0.0")
         alias("richNotification").to("com.moengage", "rich-notification").version("3.0.0")
         alias("security").to("com.moengage", "security").version("2.0.0")
+        alias("geofenceAndroid12").to("com.moengage", "geofence-android-12").version("1.0.0-a12")
         bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
             "pushAmpPlus", "deviceTrigger", "richNotification", "security"))
     }
@@ -45,7 +46,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "2.0.0"
+            version = "2.1.0"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
