@@ -1,3 +1,6 @@
+## 2.2.0
+- Added Segment Bundle to the catalog.
+
 ## 2.1.0 (17-03-2022)
 - Added Geofence Android 12 to the catalog.
 
