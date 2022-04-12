@@ -1,5 +1,5 @@
-## 2.2.1 (06-04-2022)
-- InApp SDK version updated to `6.0.1`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#inapp-6-0-1-06-04-2022--0-0)
+## 2.2.1 (12-04-2022)
+- InApp SDK version updated to `6.0.2`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#inapp-6-0-1-06-04-2022--0-0)
 
 ## 2.2.0 (30-03-2022)
 - Added Segment Bundle to the catalog.

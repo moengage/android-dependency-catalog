@@ -23,7 +23,7 @@ catalog {
         alias("cardsCore").to("com.moengage", "cards-core").version("1.0.0")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.0.0")
         alias("geofence").to("com.moengage", "geofence").version("2.0.0")
-        alias("inapp").to("com.moengage", "inapp").version("6.0.1")
+        alias("inapp").to("com.moengage", "inapp").version("6.0.2")
         alias("inboxCore").to("com.moengage", "inbox-core").version("2.0.0")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("2.0.0")
         alias("pushKit").to("com.moengage", "hms-pushkit").version("4.0.0")
