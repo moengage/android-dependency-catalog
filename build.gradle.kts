@@ -19,7 +19,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.1.00")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.2.00")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.1.0")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.1.0")
         alias("geofence").to("com.moengage", "geofence").version("2.1.0")
@@ -33,7 +33,7 @@ catalog {
         alias("richNotification").to("com.moengage", "rich-notification").version("3.1.0")
         alias("security").to("com.moengage", "security").version("2.1.0")
         alias("geofenceAndroid12").to("com.moengage", "geofence-android-12").version("1.1.0-a12")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.1.0")
+        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.2.0")
         bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
             "pushAmpPlus", "deviceTrigger", "richNotification", "security"))
     }
@@ -47,7 +47,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "2.3.0"
+            version = "2.4.0"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
