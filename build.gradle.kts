@@ -47,7 +47,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "2.4.0"
+            version = "2.4.1"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
