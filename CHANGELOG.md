@@ -1,4 +1,4 @@
-## 2.4.2 ()
+## 2.4.2 (19-05-2022)
 - Core SDK version updated `12.2.02` [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#19-05-2022-0-0)
 - MoEngageSegment version updated to `6.2.2`
 - InApp SDK version updated to `6.2.0`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#19-05-2022-0-0)
