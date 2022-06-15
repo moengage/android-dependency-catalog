@@ -28,7 +28,7 @@ catalog {
         alias("inboxUi").to("com.moengage", "inbox-ui").version("2.1.1")
         alias("pushKit").to("com.moengage", "hms-pushkit").version("4.1.1")
         alias("pushAmp").to("com.moengage", "push-amp").version("4.1.1")
-        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("5.1.1")
+        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("5.1.2")
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.1.1")
         alias("richNotification").to("com.moengage", "rich-notification").version("3.1.1")
         alias("security").to("com.moengage", "security").version("2.1.1")
@@ -47,7 +47,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "2.4.2"
+            version = "2.4.3"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")

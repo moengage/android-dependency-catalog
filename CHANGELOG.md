@@ -1,3 +1,6 @@
+## 2.4.3 (15-06-2022)
+- Push Amp Plush SDK version updated to `5.1.2`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#15-06-2022-0-0)
+
 ## 2.4.2 (19-05-2022)
 - Core SDK version updated `12.2.02` [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#19-05-2022-0-0)
 - MoEngageSegment version updated to `6.2.2`
