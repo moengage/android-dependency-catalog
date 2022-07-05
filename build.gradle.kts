@@ -19,7 +19,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.2.02")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.2.03")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.1.1")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.1.1")
         alias("geofence").to("com.moengage", "geofence").version("2.1.1")
@@ -33,7 +33,7 @@ catalog {
         alias("richNotification").to("com.moengage", "rich-notification").version("3.1.1")
         alias("security").to("com.moengage", "security").version("2.1.1")
         alias("geofenceAndroid12").to("com.moengage", "geofence-android-12").version("1.1.1-a12")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.2.2")
+        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.2.3")
         bundle("all", listOf("core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
             "pushAmpPlus", "deviceTrigger", "richNotification", "security"))
     }
