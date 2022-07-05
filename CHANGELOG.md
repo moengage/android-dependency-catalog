@@ -1,4 +1,4 @@
-## 2.4.3
+## 2.4.4 (05-07-2022)
 - Core SDK version updated to 12.2.03
 - MoEngage Segment version updated 6.2.2
 
