@@ -1,3 +1,6 @@
+## 2.4.6
+- InApp SDK version updated to 6.3.0, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#18-08-2022-0-0)
+
 ## 2.4.5 (13-08-2022)
 - Core SDK version updated to 12.2.04, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-08-2022-0-0)
 
