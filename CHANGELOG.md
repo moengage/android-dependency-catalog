@@ -1,12 +1,19 @@
+## 2.4.7 (19-05-2022)
+- Core SDK version updated `12.2.05`
+- Push Amp Plush SDK version updated to `6.0.0`
+- Rich Notification SDK version updated to `4.0.0`
+- MoEngage Segment version updated `6.2.5`
+
 ## 2.4.6 (18-08-2022)
-- InApp SDK version updated to 6.3.0, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#18-08-2022-0-0)
+- InApp SDK version updated to `6.3.0`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#18-08-2022-0-0)
+- MoEngage Segment version updated `6.2.4`
 
 ## 2.4.5 (13-08-2022)
-- Core SDK version updated to 12.2.04, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-08-2022-0-0)
+- Core SDK version updated to `12.2.04`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-08-2022-0-0)
 
 ## 2.4.4 (05-07-2022)
-- Core SDK version updated to 12.2.03
-- MoEngage Segment version updated 6.2.2
+- Core SDK version updated to `12.2.03`
+- MoEngage Segment version updated `6.2.3`
 
 ## 2.4.3 (15-06-2022)
 - Push Amp Plush SDK version updated to `5.1.2`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#15-06-2022-0-0)
