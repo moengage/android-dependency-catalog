@@ -1,3 +1,8 @@
+## 2.5.0 (12-09-2022)
+- Core SDK version updated `12.3.01`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-10-2022-0-0)
+- InApp version updated `6.3.2`
+- MoEngage Segment version updated `6.3.0`
+
 ## 2.4.7 (19-05-2022)
 - Core SDK version updated `12.2.05`
 - Push Amp Plush SDK version updated to `6.0.0`

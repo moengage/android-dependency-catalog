@@ -19,11 +19,11 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.2.05")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.3.01")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.1.1")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.1.1")
         alias("geofence").to("com.moengage", "geofence").version("2.1.1")
-        alias("inapp").to("com.moengage", "inapp").version("6.3.0")
+        alias("inapp").to("com.moengage", "inapp").version("6.3.2")
         alias("inboxCore").to("com.moengage", "inbox-core").version("2.1.1")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("2.1.1")
         alias("pushKit").to("com.moengage", "hms-pushkit").version("4.1.1")
@@ -33,7 +33,7 @@ catalog {
         alias("richNotification").to("com.moengage", "rich-notification").version("4.0.0")
         alias("security").to("com.moengage", "security").version("2.1.1")
         alias("geofenceAndroid12").to("com.moengage", "geofence-android-12").version("1.1.1-a12")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.2.5")
+        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.3.0")
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
@@ -51,7 +51,7 @@ publishing {
         create<MavenPublication>("maven") {
             groupId = "com.moengage"
             artifactId = "android-dependency-catalog"
-            version = "2.4.7"
+            version = "2.5.0"
             from(components["versionCatalog"])
             pom {
                 name.set("MoEngage Android Dependency Catalog")
