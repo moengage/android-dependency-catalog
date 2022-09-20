@@ -1,3 +1,11 @@
+## 2.5.1 (20-09-2022)
+- Core SDK version updated `12.3.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#20-09-2022-0-0)
+- InApp version updated `6.3.3`
+- Cards UI version updated `1.1.2`
+- Inbox UI version updated `2.1.2`
+- Rich Notification version updated `4.0.1`
+- MoEngage Segment version updated `6.3.1`
+
 ## 2.5.0 (12-09-2022)
 - Core SDK version updated `12.3.01`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#12-10-2022-0-0)
 - InApp version updated `6.3.2`
