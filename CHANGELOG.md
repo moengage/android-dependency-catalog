@@ -1,3 +1,21 @@
+# 26-10-2022
+
+## 2.6.0
+- Core SDK version update `12.4.00`, [Release Note](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#25-10-2022-0-0)
+- Cards UI version updated to `1.2.0`
+- Cards Core version updated to `1.2.0`
+- Geofence version updated to `2.2.0`
+- InApp version updated to `6.4.0`
+- Inbox UI version updated to `2.2.0`
+- Inbox Core version updated to `2.2.0`
+- HMS Push Kit version updated to `4.2.0`
+- Push Amp version updated to `4.2.0`
+- Push Amp Plus version updated to `6.1.0`
+- Real Time Trigger version updated to `2.2.0`
+- Rich Notification version updated `4.1.0`
+- Security version version updated `2.2.0`
+- MoEngage Segment version updated `6.4.0` 
+
 ## 2.5.1 (20-09-2022)
 - Core SDK version updated `12.3.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#20-09-2022-0-0)
 - InApp version updated `6.3.3`
