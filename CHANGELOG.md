@@ -1,3 +1,12 @@
+# 04-11-2022
+
+## 2.7.0
+- Core SDK version update `12.5.00`, [Release Note](https://developers.moengage.com/hc/en-us/articles/4403896795540#04-11-2022-0-0)
+- HMS Push Kit version updated to `4.3.0`
+- Push Amp Plus version updated to `6.2.0`
+- Rich Notification version updated `4.2.0`
+- MoEngage Segment version updated `6.5.0` 
+
 # 26-10-2022
 
 ## 2.6.0
