@@ -1,3 +1,9 @@
+# 14-11-2022
+
+## 2.7.1
+- Core SDK version updated to `12.5.01` [Release Note](https://developers.moengage.com/hc/en-us/articles/4403896795540#14-11-2022-0-0)
+- MoEngage Segment Version updated to `6.5.1`
+
 # 04-11-2022
 
 ## 2.7.0
