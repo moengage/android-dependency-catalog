@@ -1,5 +1,8 @@
 # 19-01-2022
 
+## 2.7.6
+- Update alias for `integration-verifier` artifact.
+
 ## 2.7.5
 - Core SDK version updated to `12.5.05`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#19-12-2022-0-0)
 - MoEngage Segment Version updated `6.5.5`

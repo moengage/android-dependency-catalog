@@ -33,11 +33,11 @@ catalog {
         alias("richNotification").to("com.moengage", "rich-notification").version("4.3.0")
         alias("security").to("com.moengage", "security").version("2.2.0")
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.4")
-        alias("integrationValidation").to("com.moengage", "integration-verifier").version("4.0.0")
+        alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
-                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationValidation"
+                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier"
             )
         )
     }
@@ -45,7 +45,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.7.5"
+val libVersion = "2.7.6"
 
 publishing {
     publications {
