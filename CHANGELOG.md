@@ -1,5 +1,4 @@
-# 19-01-2022
-
+# 31-01-2023
 ## 2.7.7
 - Core SDK version updated to `12.5.06`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#31-01-2023-0-0)
 - Rich Notification version updated `4.3.1`
@@ -7,7 +6,7 @@
 - Real Time Trigger version updated to `2.2.1`
 - MoEngage Segment Version updated `6.5.6`
 
-
+# 19-01-2022
 ## 2.7.6
 - Update alias for `integration-verifier` artifact.
 
