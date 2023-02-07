@@ -1,7 +1,7 @@
 # 07-02-2023
 
 ## 2.7.8
-- Core SDK version updated to `12.6.00`
+- Core SDK version updated to `12.6.00` [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540#07-02-2023-0-0)
 - InApp version updated `6.5.0`
 - MoEngage Segment Version updated `6.5.7`
 
