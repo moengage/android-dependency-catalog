@@ -45,7 +45,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.7.7"
+val libVersion = "2.7.8"
 
 publishing {
     publications {
