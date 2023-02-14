@@ -19,7 +19,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.6.00")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.6.01")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.2.0")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.2.1")
         alias("geofence").to("com.moengage", "geofence").version("3.0.0")
