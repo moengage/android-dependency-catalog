@@ -32,7 +32,7 @@ catalog {
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.2.1")
         alias("richNotification").to("com.moengage", "rich-notification").version("4.3.1")
         alias("security").to("com.moengage", "security").version("2.2.0")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.7")
+        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
         alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
         bundle(
             "all", listOf(
