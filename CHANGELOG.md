@@ -1,3 +1,7 @@
+# 28-02-2023
+
+## 2.8.0
+- Added MoEngage Segment Kotlin Destination artifact.
 # 14-02-2023
 
 ## 2.7.9

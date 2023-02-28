@@ -34,6 +34,7 @@ catalog {
         alias("security").to("com.moengage", "security").version("2.2.0")
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
         alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
+        alias("moengageSegmentKotlinDestination").to("com.moengage", "moengage-segment-kotlin-destination").version("1.0.0")
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
@@ -45,7 +46,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.7.9"
+val libVersion = "2.8.0"
 
 publishing {
     publications {
