@@ -19,10 +19,10 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.6.01")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.6.02")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.2.0")
-        alias("cardsUi").to("com.moengage", "cards-ui").version("1.2.1")
-        alias("geofence").to("com.moengage", "geofence").version("3.0.0")
+        alias("cardsUi").to("com.moengage", "cards-ui").version("1.2.2")
+        alias("geofence").to("com.moengage", "geofence").version("3.0.1")
         alias("inapp").to("com.moengage", "inapp").version("6.5.0")
         alias("inboxCore").to("com.moengage", "inbox-core").version("2.2.0")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("2.2.0")
@@ -30,7 +30,7 @@ catalog {
         alias("pushAmp").to("com.moengage", "push-amp").version("4.2.1")
         alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("6.2.1")
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.2.1")
-        alias("richNotification").to("com.moengage", "rich-notification").version("4.3.1")
+        alias("richNotification").to("com.moengage", "rich-notification").version("4.3.2")
         alias("security").to("com.moengage", "security").version("2.2.0")
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
         alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
@@ -46,7 +46,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.8.0"
+val libVersion = "2.8.1"
 
 publishing {
     publications {
