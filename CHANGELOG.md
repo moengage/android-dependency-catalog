@@ -1,3 +1,12 @@
+# 16-03-2023
+
+## 2.8.1
+- Core SDK version updated to `12.6.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#16-03-2023-0-0)
+- Rich Notification version updated to `4.3.2`
+- Geofence version updated to `3.0.1`
+- Cards UI version updated to `1.2.2`
+- MoEngage Segment Kotlin Version updated to `1.0.1`
+
 # 28-02-2023
 
 ## 2.8.0
