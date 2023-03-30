@@ -35,12 +35,15 @@ catalog {
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
         alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
         alias("moengageSegmentKotlinDestination").to("com.moengage", "moengage-segment-kotlin-destination").version("1.0.1")
+        alias("encryptedStorage").to("com.moengage", "encrypted-storage").version("1.0.0")
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
                 "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier"
             )
         )
+        bundle("storageEncryption", listOf("encryptedStorage", "security"))
+        
     }
 }
 
