@@ -1,3 +1,8 @@
+# Next Release
+
+## 2.9.0
+- Core SDK version updated to `12.7.00`
+
 # 16-03-2023
 
 ## 2.8.1
