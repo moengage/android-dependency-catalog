@@ -1,7 +1,7 @@
 # Next Release
 
 ## 2.9.0
-- Core SDK version updated to `12.7.00`
+- Core SDK version updated to `12.7.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#04-04-2023-0-0)
 
 # 30-03-2023
 

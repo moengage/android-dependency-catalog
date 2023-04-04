@@ -39,7 +39,8 @@ catalog {
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
-                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier"
+                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier",
+                "encryptedStorage"
             )
         )
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
