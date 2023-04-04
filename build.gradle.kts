@@ -19,28 +19,32 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.6.03")
-        alias("cardsCore").to("com.moengage", "cards-core").version("1.2.0")
-        alias("cardsUi").to("com.moengage", "cards-ui").version("1.2.2")
-        alias("geofence").to("com.moengage", "geofence").version("3.0.1")
-        alias("inapp").to("com.moengage", "inapp").version("6.5.0")
-        alias("inboxCore").to("com.moengage", "inbox-core").version("2.2.0")
-        alias("inboxUi").to("com.moengage", "inbox-ui").version("2.2.0")
-        alias("pushKit").to("com.moengage", "hms-pushkit").version("4.3.0")
-        alias("pushAmp").to("com.moengage", "push-amp").version("4.2.1")
-        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("6.2.1")
-        alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.2.1")
-        alias("richNotification").to("com.moengage", "rich-notification").version("4.3.2")
-        alias("security").to("com.moengage", "security").version("2.2.0")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.7.00")
+        alias("cardsCore").to("com.moengage", "cards-core").version("1.3.0")
+        alias("cardsUi").to("com.moengage", "cards-ui").version("1.3.0")
+        alias("geofence").to("com.moengage", "geofence").version("3.1.0")
+        alias("inapp").to("com.moengage", "inapp").version("6.6.0")
+        alias("inboxCore").to("com.moengage", "inbox-core").version("2.3.0")
+        alias("inboxUi").to("com.moengage", "inbox-ui").version("2.3.0")
+        alias("pushKit").to("com.moengage", "hms-pushkit").version("4.4.0")
+        alias("pushAmp").to("com.moengage", "push-amp").version("4.3.0")
+        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("6.3.0")
+        alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.3.0")
+        alias("richNotification").to("com.moengage", "rich-notification").version("4.4.0")
+        alias("security").to("com.moengage", "security").version("2.3.0")
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
-        alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.0.0")
-        alias("moengageSegmentKotlinDestination").to("com.moengage", "moengage-segment-kotlin-destination").version("1.0.2")
+        alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.1.0")
+        alias("moengageSegmentKotlinDestination").to("com.moengage", "moengage-segment-kotlin-destination").version("1.1.0")
+        alias("encryptedStorage").to("com.moengage", "encrypted-storage").version("1.0.0")
         bundle(
             "all", listOf(
                 "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
-                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier"
+                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier",
+                "encryptedStorage"
             )
         )
+        bundle("storageEncryption", listOf("encryptedStorage", "security"))
+        
     }
 }
 
