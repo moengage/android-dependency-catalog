@@ -19,7 +19,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.7.00")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.7.01")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.3.0")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.3.0")
         alias("geofence").to("com.moengage", "geofence").version("3.1.0")
@@ -32,25 +32,40 @@ catalog {
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.3.0")
         alias("richNotification").to("com.moengage", "rich-notification").version("4.4.0")
         alias("security").to("com.moengage", "security").version("2.3.0")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration").version("6.5.8")
+        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration")
+            .version("6.5.8")
         alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.1.0")
-        alias("moengageSegmentKotlinDestination").to("com.moengage", "moengage-segment-kotlin-destination").version("1.1.0")
+        alias("moengageSegmentKotlinDestination").to(
+            "com.moengage",
+            "moengage-segment-kotlin-destination"
+        ).version("1.1.1")
         alias("encryptedStorage").to("com.moengage", "encrypted-storage").version("1.0.0")
         bundle(
             "all", listOf(
-                "core", "cardsCore", "cardsUi", "geofence", "inapp", "inboxUi", "pushKit", "pushAmp",
-                "pushAmpPlus", "deviceTrigger", "richNotification", "security", "integrationVerifier",
+                "core",
+                "cardsCore",
+                "cardsUi",
+                "geofence",
+                "inapp",
+                "inboxUi",
+                "pushKit",
+                "pushAmp",
+                "pushAmpPlus",
+                "deviceTrigger",
+                "richNotification",
+                "security",
+                "integrationVerifier",
                 "encryptedStorage"
             )
         )
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
-        
+
     }
 }
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.9.0"
+val libVersion = "2.9.1"
 
 publishing {
     publications {
@@ -89,9 +104,9 @@ publishing {
                     username = mavenCentralRepositoryUsername
                     password = mavenCentralRepositoryPassword
                 }
-                url = if(libVersion.endsWith("SNAPSHOT")) {
+                url = if (libVersion.endsWith("SNAPSHOT")) {
                     uri("https://oss.sonatype.org/content/repositories/snapshots/")
-                }  else {
+                } else {
                     uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
                 }
             }

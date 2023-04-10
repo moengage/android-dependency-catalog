@@ -1,4 +1,10 @@
-# Next Release
+# 10-04-2023
+
+## 2.9.1
+- Core SDK version updated to `12.7.01`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#10-04-2023-0-0)
+- MoEngage Segment Kotlin Version updated to `1.1.1`
+
+# 04-04-2023
 
 ## 2.9.0
 - Core SDK version updated to `12.7.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#04-04-2023-0-0)
