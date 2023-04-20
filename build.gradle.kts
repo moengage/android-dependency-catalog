@@ -19,18 +19,18 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.7.01")
+        alias("core").to("com.moengage", "moe-android-sdk").version("12.7.02")
         alias("cardsCore").to("com.moengage", "cards-core").version("1.3.0")
         alias("cardsUi").to("com.moengage", "cards-ui").version("1.3.0")
         alias("geofence").to("com.moengage", "geofence").version("3.1.0")
-        alias("inapp").to("com.moengage", "inapp").version("6.6.0")
+        alias("inapp").to("com.moengage", "inapp").version("6.6.1")
         alias("inboxCore").to("com.moengage", "inbox-core").version("2.3.0")
         alias("inboxUi").to("com.moengage", "inbox-ui").version("2.3.0")
         alias("pushKit").to("com.moengage", "hms-pushkit").version("4.4.0")
         alias("pushAmp").to("com.moengage", "push-amp").version("4.3.0")
         alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("6.3.0")
         alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.3.0")
-        alias("richNotification").to("com.moengage", "rich-notification").version("4.4.0")
+        alias("richNotification").to("com.moengage", "rich-notification").version("4.4.1")
         alias("security").to("com.moengage", "security").version("2.3.0")
         alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration")
             .version("6.5.8")
@@ -38,7 +38,7 @@ catalog {
         alias("moengageSegmentKotlinDestination").to(
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("1.1.1")
+        ).version("1.1.2")
         alias("encryptedStorage").to("com.moengage", "encrypted-storage").version("1.0.0")
         bundle(
             "all", listOf(
@@ -65,7 +65,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "2.9.1"
+val libVersion = "2.9.2"
 
 publishing {
     publications {

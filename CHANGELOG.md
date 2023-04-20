@@ -1,3 +1,11 @@
+# 20-04-2023
+
+## 2.9.2
+- Core SDK version updated to `12.7.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#20-04-2023-0-0)
+- InApp version updated `6.6.1`
+- Rich Notification version updated to `4.4.1`
+- MoEngage Segment Kotlin Version updated to `1.1.2`
+
 # 10-04-2023
 
 ## 2.9.1
