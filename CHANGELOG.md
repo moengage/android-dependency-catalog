@@ -1,3 +1,22 @@
+# 16-05-2023
+
+## 3.0.0
+- Core SDK version updated to `12.8.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#16-05-2023-0-0)
+- Cards Core version updated to `1.4.0`
+- Cards Ui version updated to `1.4.0`
+- Inbox Core version updated to `2.4.0`
+- Inbox Ui version updated to `2.4.0`
+- Encrypted Storage version updated to `1.1.0`
+- Geofence version updated to `3.2.0`
+- PushKit version updated to `4.5.0`
+- InApp version updated to `6.7.0`
+- Integration Validation version updated to `4.2.0`
+- PushAmp version updated to `4.4.0`
+- PushAmpPlus version updated to `6.4.0`
+- Real Time Trigger version updated to `2.4.0`
+- Rich Notification version updated to `4.5.0`
+- Security version updated to `2.4.0`
+
 # 20-04-2023
 
 ## 2.9.2
