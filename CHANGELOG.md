@@ -1,3 +1,9 @@
+# 27-06-2023
+
+## 3.0.2
+- Core SDK version updated to `12.8.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#27-06-2023-0-0)
+- InApp version updated to `6.7.1`
+
 # 08-06-2023
 
 ## 3.0.1
