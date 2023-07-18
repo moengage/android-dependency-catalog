@@ -1,3 +1,8 @@
+# Next Release
+
+## Version
+- Gradle version updated to `8.1`
+
 # 27-06-2023
 
 ## 3.0.3

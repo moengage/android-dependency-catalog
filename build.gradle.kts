@@ -19,27 +19,31 @@ plugins {
 
 catalog {
     versionCatalog {
-        alias("core").to("com.moengage", "moe-android-sdk").version("12.8.02")
-        alias("cardsCore").to("com.moengage", "cards-core").version("1.4.1")
-        alias("cardsUi").to("com.moengage", "cards-ui").version("1.4.0")
-        alias("geofence").to("com.moengage", "geofence").version("3.2.0")
-        alias("inapp").to("com.moengage", "inapp").version("6.7.2")
-        alias("inboxCore").to("com.moengage", "inbox-core").version("2.4.0")
-        alias("inboxUi").to("com.moengage", "inbox-ui").version("2.4.0")
-        alias("pushKit").to("com.moengage", "hms-pushkit").version("4.5.0")
-        alias("pushAmp").to("com.moengage", "push-amp").version("4.4.0")
-        alias("pushAmpPlus").to("com.moengage", "push-amp-plus").version("6.4.0")
-        alias("deviceTrigger").to("com.moengage", "realtime-trigger").version("2.4.0")
-        alias("richNotification").to("com.moengage", "rich-notification").version("4.5.1")
-        alias("security").to("com.moengage", "security").version("2.4.0")
-        alias("moengageSegmentIntegration").to("com.moengage", "moengage-segment-integration")
-            .version("6.5.8")
-        alias("integrationVerifier").to("com.moengage", "integration-verifier").version("4.2.0")
-        alias("moengageSegmentKotlinDestination").to(
+        library("core", "com.moengage", "moe-android-sdk").version("12.8.02")
+        library("cardsCore", "com.moengage", "cards-core").version("1.4.1")
+        library("cardsUi", "com.moengage", "cards-ui").version("1.4.0")
+        library("geofence", "com.moengage", "geofence").version("3.2.0")
+        library("inapp", "com.moengage", "inapp").version("6.7.2")
+        library("inboxCore", "com.moengage", "inbox-core").version("2.4.0")
+        library("inboxUi", "com.moengage", "inbox-ui").version("2.4.0")
+        library("pushKit", "com.moengage", "hms-pushkit").version("4.5.0")
+        library("pushAmp", "com.moengage", "push-amp").version("4.4.0")
+        library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.4.0")
+        library("deviceTrigger", "com.moengage", "realtime-trigger").version("2.4.0")
+        library("richNotification", "com.moengage", "rich-notification").version("4.5.1")
+        library("security", "com.moengage", "security").version("2.4.0")
+        library(
+            "moengageSegmentIntegration",
+            "com.moengage",
+            "moengage-segment-integration"
+        ).version("6.5.8")
+        library("integrationVerifier", "com.moengage", "integration-verifier").version("4.2.0")
+        library(
+            "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
         ).version("1.2.2")
-        alias("encryptedStorage").to("com.moengage", "encrypted-storage").version("1.1.0")
+        library("encryptedStorage", "com.moengage", "encrypted-storage").version("1.1.0")
         bundle(
             "all", listOf(
                 "core",
