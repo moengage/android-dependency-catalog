@@ -1,8 +1,19 @@
+# 09-08-2023
+
+## 3.1.1
+- Core SDK version updated to `12.9.01`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#09-08-2023-0-0)
+- PushAmp version updated to `4.5.1`
+- PushAmpPlus version updated to `6.5.1`
+- Real Time Trigger version updated to `2.5.1`
+- Geofence version updated to `3.3.1`
+- Segment Kotlin Version updated to `1.3.1`
+
+
 # 18-07-2023
 
 ## 3.1.0
 - Gradle version updated to `8.1`
-- Core SDK version updated to `12.8.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#18-07-2023-0-0)
+- Core SDK version updated to `12.9.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#18-07-2023-0-0)
 - Cards Core version updated to `1.5.0`
 - Cards Ui version updated to `1.5.0`
 - Inbox Core version updated to `2.5.0`
