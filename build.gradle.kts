@@ -19,11 +19,11 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("12.9.01")
-        library("cardsCore", "com.moengage", "cards-core").version("1.5.0")
-        library("cardsUi", "com.moengage", "cards-ui").version("1.5.0")
+        library("core", "com.moengage", "moe-android-sdk").version("12.9.02")
+        library("cardsCore", "com.moengage", "cards-core").version("1.5.1")
+        library("cardsUi", "com.moengage", "cards-ui").version("1.5.1")
         library("geofence", "com.moengage", "geofence").version("3.3.1")
-        library("inapp", "com.moengage", "inapp").version("6.8.0")
+        library("inapp", "com.moengage", "inapp").version("6.8.1")
         library("inboxCore", "com.moengage", "inbox-core").version("2.5.0")
         library("inboxUi", "com.moengage", "inbox-ui").version("2.5.0")
         library("pushKit", "com.moengage", "hms-pushkit").version("4.6.0")
@@ -42,7 +42,7 @@ catalog {
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("1.3.1")
+        ).version("1.3.2")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("1.2.0")
         bundle(
             "all", listOf(
@@ -69,7 +69,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "3.1.1"
+val libVersion = "3.1.2"
 
 publishing {
     publications {
