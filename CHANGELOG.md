@@ -1,3 +1,13 @@
+# 07-09-2023
+
+## 3.1.3
+- Core SDK version updated to `12.9.03`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#07-09-2023-0-0)
+- Geofence version updated to `3.3.2`
+- Integration Validation version updated to `4.3.1`
+- PushAmp version updated to `4.5.2`
+- Real Time Trigger version updated to `2.5.2`
+- Segment Kotlin Version updated to `1.3.3`
+
 # 31-08-2023
 
 ## 3.1.2
