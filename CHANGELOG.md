@@ -1,3 +1,7 @@
+# 11-10-2023
+
+## 3.1.4
+- InApp Version updated to `6.9.0`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01HA1PCESE60Q2VYHQP2PAR765)
 # 07-09-2023
 
 ## 3.1.3
