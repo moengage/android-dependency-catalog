@@ -1,3 +1,8 @@
+# 12-10-2023
+
+## 3.1.5
+- PushKit version updated to `4.6.1`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#12-10-2023-0-0)
+
 # 11-10-2023
 
 ## 3.1.4

@@ -26,7 +26,7 @@ catalog {
         library("inapp", "com.moengage", "inapp").version("6.9.0")
         library("inboxCore", "com.moengage", "inbox-core").version("2.5.0")
         library("inboxUi", "com.moengage", "inbox-ui").version("2.5.0")
-        library("pushKit", "com.moengage", "hms-pushkit").version("4.6.0")
+        library("pushKit", "com.moengage", "hms-pushkit").version("4.6.1")
         library("pushAmp", "com.moengage", "push-amp").version("4.5.2")
         library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.5.1")
         library("deviceTrigger", "com.moengage", "realtime-trigger").version("2.5.2")
@@ -69,7 +69,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "3.1.4"
+val libVersion = "3.1.5"
 
 publishing {
     publications {
