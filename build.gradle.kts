@@ -19,31 +19,31 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("12.9.03")
-        library("cardsCore", "com.moengage", "cards-core").version("1.5.1")
-        library("cardsUi", "com.moengage", "cards-ui").version("1.5.1")
-        library("geofence", "com.moengage", "geofence").version("3.3.2")
-        library("inapp", "com.moengage", "inapp").version("6.9.0")
-        library("inboxCore", "com.moengage", "inbox-core").version("2.5.0")
-        library("inboxUi", "com.moengage", "inbox-ui").version("2.5.0")
-        library("pushKit", "com.moengage", "hms-pushkit").version("4.6.1")
-        library("pushAmp", "com.moengage", "push-amp").version("4.5.2")
-        library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.5.1")
-        library("deviceTrigger", "com.moengage", "realtime-trigger").version("2.5.2")
-        library("richNotification", "com.moengage", "rich-notification").version("4.6.0")
-        library("security", "com.moengage", "security").version("2.5.0")
+        library("core", "com.moengage", "moe-android-sdk").version("12.10.00")
+        library("cardsCore", "com.moengage", "cards-core").version("1.6.0")
+        library("cardsUi", "com.moengage", "cards-ui").version("1.6.0")
+        library("geofence", "com.moengage", "geofence").version("3.4.0")
+        library("inapp", "com.moengage", "inapp").version("7.0.0")
+        library("inboxCore", "com.moengage", "inbox-core").version("2.6.0")
+        library("inboxUi", "com.moengage", "inbox-ui").version("2.6.0")
+        library("pushKit", "com.moengage", "hms-pushkit").version("4.7.0")
+        library("pushAmp", "com.moengage", "push-amp").version("4.6.0")
+        library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.6.0")
+        library("deviceTrigger", "com.moengage", "realtime-trigger").version("2.6.0")
+        library("richNotification", "com.moengage", "rich-notification").version("4.7.0")
+        library("security", "com.moengage", "security").version("2.6.0")
         library(
             "moengageSegmentIntegration",
             "com.moengage",
             "moengage-segment-integration"
         ).version("6.5.8")
-        library("integrationVerifier", "com.moengage", "integration-verifier").version("4.3.1")
+        library("integrationVerifier", "com.moengage", "integration-verifier").version("4.4.0")
         library(
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("1.3.3")
-        library("encryptedStorage", "com.moengage", "encrypted-storage").version("1.2.0")
+        ).version("1.4.0")
+        library("encryptedStorage", "com.moengage", "encrypted-storage").version("1.3.0")
         bundle(
             "all", listOf(
                 "core",
@@ -69,7 +69,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "3.1.5"
+val libVersion = "3.2.0"
 
 publishing {
     publications {
