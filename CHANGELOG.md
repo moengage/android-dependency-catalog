@@ -1,3 +1,11 @@
+# 15-11-2023
+
+## 3.2.1
+
+- Core SDK version updated to `12.10.01`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#15-11-2023-0-0)
+- InApp version updated to `7.1.0`
+- Rich Notification version updated to `4.7.1`
+
 # 25-10-2023
 
 ## 3.2.0
