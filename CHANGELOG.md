@@ -1,3 +1,13 @@
+# 29-11-2023
+
+## 3.2.2
+
+- Core SDK version updated to `12.10.02`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#29-11-2023-0-0)
+- Cards Ui version updated to `1.6.1`
+- InApp version updated to `7.1.1`
+- Rich Notification version updated to `4.7.2`
+- Segment Kotlin Version updated to `1.5.0`
+
 # 15-11-2023
 
 ## 3.2.1
