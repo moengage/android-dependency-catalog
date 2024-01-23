@@ -1,3 +1,11 @@
+# 23-01-2024
+
+## 3.2.4
+
+- Core SDK version updated to `12.10.03`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#23-01-2024-0-0)
+- InApp version updated to `7.1.3`
+- Inbox UI version updated to `2.6.1`
+
 # 14-12-2023
 
 ## 3.2.3

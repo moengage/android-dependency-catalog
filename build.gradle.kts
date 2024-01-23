@@ -19,13 +19,13 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("12.10.02")
+        library("core", "com.moengage", "moe-android-sdk").version("12.10.03")
         library("cardsCore", "com.moengage", "cards-core").version("1.6.0")
         library("cardsUi", "com.moengage", "cards-ui").version("1.6.1")
         library("geofence", "com.moengage", "geofence").version("3.4.0")
-        library("inapp", "com.moengage", "inapp").version("7.1.2")
+        library("inapp", "com.moengage", "inapp").version("7.1.3")
         library("inboxCore", "com.moengage", "inbox-core").version("2.6.0")
-        library("inboxUi", "com.moengage", "inbox-ui").version("2.6.0")
+        library("inboxUi", "com.moengage", "inbox-ui").version("2.6.1")
         library("pushKit", "com.moengage", "hms-pushkit").version("4.7.0")
         library("pushAmp", "com.moengage", "push-amp").version("4.6.0")
         library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.6.0")
@@ -69,7 +69,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "3.2.3"
+val libVersion = "3.2.4"
 
 publishing {
     publications {
