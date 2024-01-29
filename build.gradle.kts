@@ -28,7 +28,6 @@ catalog {
         library("inboxUi", "com.moengage", "inbox-ui").version("2.6.1")
         library("pushKit", "com.moengage", "hms-pushkit").version("4.7.0")
         library("pushAmp", "com.moengage", "push-amp").version("4.6.0")
-        library("pushAmpPlus", "com.moengage", "push-amp-plus").version("6.6.0")
         library("deviceTrigger", "com.moengage", "realtime-trigger").version("2.6.0")
         library("richNotification", "com.moengage", "rich-notification").version("4.7.2")
         library("security", "com.moengage", "security").version("2.6.0")
@@ -54,7 +53,6 @@ catalog {
                 "inboxUi",
                 "pushKit",
                 "pushAmp",
-                "pushAmpPlus",
                 "deviceTrigger",
                 "richNotification",
                 "security",

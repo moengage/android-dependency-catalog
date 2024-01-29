@@ -1,3 +1,9 @@
+# Next release
+
+## Next Version
+
+- Removed support for Mi Push.
+
 # 23-01-2024
 
 ## 3.2.4
