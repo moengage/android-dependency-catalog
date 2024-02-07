@@ -1,3 +1,12 @@
+# 07-02-2024
+
+## 3.2.5
+- Core SDK version updated to `12.10.04`
+- InApp version updated to `7.1.4`
+- Real Time Trigger updated to `2.6.1`
+- Push-Amp updated to `4.6.1`
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles4403896795540-Changelog#h_01HHKCXZQPYTFCT6R8MDCME3Z1).
+
 # 23-01-2024
 
 ## 3.2.4
