@@ -1,3 +1,9 @@
+# Release Date
+
+## Next version
+
+- MOEN-29601: AGP Version update from `8.0.2` to `8.2.2`
+
 # 23-01-2024
 
 ## 3.2.4
