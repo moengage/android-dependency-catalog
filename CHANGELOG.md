@@ -2,7 +2,7 @@
 
 ## Next version
 
-- MOEN-29601: AGP Version update from `8.0.2` to `8.2.2`
+- Gradle version updated from `8.1` to `8.2`
 
 # 23-01-2024
 
