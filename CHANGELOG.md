@@ -1,3 +1,9 @@
+# Release Date
+
+## Next version
+
+- Gradle version updated from `8.1` to `8.2`
+
 # 07-02-2024
 
 ## 3.2.5
