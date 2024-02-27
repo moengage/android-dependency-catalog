@@ -3,6 +3,7 @@
 ## Next version
 
 - Gradle version updated from `8.1` to `8.2`
+- Removed support for Mi Push.
 
 # 07-02-2024
 
