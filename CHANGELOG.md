@@ -1,10 +1,21 @@
+# 18-03-2024
+
+## 4.1.0
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#18-03-2024-0-0)
+- Core SDK version updated to `13.00.01`
+- Cards Core version updated to `2.0.1`
+- Cards Ui version updated to `2.0.1`
+- InApp version updated to `8.1.0`
+- PushAmp version updated to `5.0.1`
+- Segment Kotlin Version updated to `2.0.1`
+
 # 27-02-2024
 
 ## 4.0.0
-
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#27-02-2024-0-0)
 - Gradle version updated from `8.1` to `8.2`
 - Removed support for Mi Push.
-- Core SDK version updated to `13.00.00`, [Release Notes](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#27-02-2024-0-0)
+- Core SDK version updated to `13.00.00`
 - Cards Core version updated to `2.0.0`
 - Cards Ui version updated to `2.0.0`
 - Encrypted Storage version updated to `2.0.0`
