@@ -1,3 +1,10 @@
+# 21-04-2024
+
+## 4.1.2
+
+- Release Note [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01HSFNBZR5J6TJBSF1YXK0CPW7)
+- InAp version updated to `8.1.1`
+
 # 19-03-2024
 
 ## 4.1.1

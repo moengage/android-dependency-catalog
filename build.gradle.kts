@@ -23,7 +23,7 @@ catalog {
         library("cardsCore", "com.moengage", "cards-core").version("2.0.1")
         library("cardsUi", "com.moengage", "cards-ui").version("2.0.1")
         library("geofence", "com.moengage", "geofence").version("4.0.1")
-        library("inapp", "com.moengage", "inapp").version("8.1.0")
+        library("inapp", "com.moengage", "inapp").version("8.1.1")
         library("inboxCore", "com.moengage", "inbox-core").version("3.0.1")
         library("inboxUi", "com.moengage", "inbox-ui").version("3.0.1")
         library("pushKit", "com.moengage", "hms-pushkit").version("5.0.1")
@@ -67,7 +67,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "4.1.1"
+val libVersion = "4.1.2"
 
 publishing {
     publications {
