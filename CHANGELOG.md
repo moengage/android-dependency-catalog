@@ -1,9 +1,18 @@
-# 21-04-2024
+# 08-04-2024
+
+## 4.1.3
+
+- Release Note [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01HSFNBZR5J6TJBSF1YXK0CPW7)
+- InApp version updated to `8.2.0`
+- Cards Core version updated to `2.0.2`
+- Cards UI version updated to `2.0.2`
+
+# 21-03-2024
 
 ## 4.1.2
 
 - Release Note [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01HSFNBZR5J6TJBSF1YXK0CPW7)
-- InAp version updated to `8.1.1`
+- InApp version updated to `8.1.1`
 
 # 19-03-2024
 
