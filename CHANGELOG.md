@@ -1,3 +1,11 @@
+# 29-04-2024
+
+## 4.1.4
+
+- Release Note [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01HWM7KKXZ8KDM8P14S8H8CQE5)
+- Core SDK version updated to `13.00.03`
+- InApp version updated to `8.2.1`
+
 # 08-04-2024
 
 ## 4.1.3
