@@ -1,3 +1,14 @@
+# 16-05-2024
+
+## 4.2.0
+
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#16-05-2024-0-0)
+- Core SDK version updated to `13.01.00`
+- Cards UI version updated to `2.1.0`
+- InApp version updated to `8.3.0`
+- Real Time Trigger version updated to `3.1.0`
+- Segment Kotlin Version updated to `2.1.0`
+
 # 29-04-2024
 
 ## 4.1.4
