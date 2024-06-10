@@ -19,15 +19,15 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("13.01.00")
+        library("core", "com.moengage", "moe-android-sdk").version("13.02.00")
         library("cardsCore", "com.moengage", "cards-core").version("2.0.2")
         library("cardsUi", "com.moengage", "cards-ui").version("2.1.0")
-        library("geofence", "com.moengage", "geofence").version("4.0.1")
-        library("inapp", "com.moengage", "inapp").version("8.3.0")
-        library("inboxCore", "com.moengage", "inbox-core").version("3.0.1")
-        library("inboxUi", "com.moengage", "inbox-ui").version("3.0.1")
+        library("geofence", "com.moengage", "geofence").version("4.0.2")
+        library("inapp", "com.moengage", "inapp").version("8.3.1")
+        library("inboxCore", "com.moengage", "inbox-core").version("3.0.2")
+        library("inboxUi", "com.moengage", "inbox-ui").version("3.0.2")
         library("pushKit", "com.moengage", "hms-pushkit").version("5.0.1")
-        library("pushAmp", "com.moengage", "push-amp").version("5.0.1")
+        library("pushAmp", "com.moengage", "push-amp").version("5.0.2")
         library("deviceTrigger", "com.moengage", "realtime-trigger").version("3.1.0")
         library("richNotification", "com.moengage", "rich-notification").version("5.0.1")
         library("security", "com.moengage", "security").version("3.0.0")
@@ -36,12 +36,12 @@ catalog {
             "com.moengage",
             "moengage-segment-integration"
         ).version("6.5.8")
-        library("integrationVerifier", "com.moengage", "integration-verifier").version("5.0.1")
+        library("integrationVerifier", "com.moengage", "integration-verifier").version("5.0.2")
         library(
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("2.1.0")
+        ).version("2.1.1")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("2.0.0")
         bundle(
             "all", listOf(
@@ -67,7 +67,7 @@ catalog {
 
 val mavenCentralRepositoryUsername: String by project
 val mavenCentralRepositoryPassword: String by project
-val libVersion = "4.2.0"
+val libVersion = "4.2.1"
 
 publishing {
     publications {

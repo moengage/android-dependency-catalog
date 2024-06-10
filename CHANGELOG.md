@@ -1,3 +1,17 @@
+# 10-06-2024
+
+## 4.2.1
+
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#10-06-2024-0-0)
+- Core SDK version updated to `13.02.00`
+- Inbox Core version updated to `3.0.2`
+- Inbox UI version updated to `3.0.2`
+- InApp version updated to `8.3.1`
+- Geofence version updated to `4.0.2`
+- PushAmp version updated to `5.0.2`
+- Integration Verifier version updated to `5.0.2`
+- Segment Kotlin Version updated to `2.1.1`
+
 # 16-05-2024
 
 ## 4.2.0
