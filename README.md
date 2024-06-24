@@ -1,5 +1,7 @@
 ![Logo](/.github/logo.png)
 
+![version](https://maven-badges.herokuapp.com/maven-central/com.moengage/android-dependency-catalog/badge.svg)
+
 ## Android SDK Dependency Catalog
 
 Catalog for various Android SDK dependencies for MoEngage Platform.
