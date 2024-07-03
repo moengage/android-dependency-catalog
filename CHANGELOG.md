@@ -1,8 +1,25 @@
-# Release Date
+# 03-07-2024
 
-## Next version
+## 4.3.0
 
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#03-07-2024-0-0)
 - Gradle version updated from `8.2` to `8.6`
+- Core SDK version updated to `13.03.00`
+- Cards Core version updated to `2.1.0`
+- Cards Ui version updated to `2.2.0`
+- Encrypted Storage version updated to `2.1.0`
+- Geofence version updated to `4.1.0`
+- PushKit version updated to `5.1.0`
+- InApp version updated to `8.4.0`
+- Inbox Core version updated to `3.1.0`
+- Inbox UI version updated to `3.1.0`
+- Integration Verifier version updated to `5.1.0`
+- PushAmp version updated to `5.1.0`
+- Real Time Trigger version updated to `3.2.0`
+- Rich Notification version updated to `5.1.0`
+- Security version updated to `3.1.0`
+- Segment Kotlin Version updated to `2.2.0`
+
 
 # 10-06-2024
 
