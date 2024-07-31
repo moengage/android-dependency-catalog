@@ -1,3 +1,19 @@
+# 31-07-2024
+
+## 4.4.0
+
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#31-07-2024-0-0)
+- Core SDK version updated to `13.04.00`
+- Cards Core version updated to `2.2.0`
+- Cards Ui version updated to `2.3.0`
+- Geofence version updated to `4.2.0`
+- InApp version updated to `8.5.0`
+- Integration Verifier version updated to `5.2.0`
+- PushAmp version updated to `5.2.0`
+- Real Time Trigger version updated to `3.3.0`
+- Security version updated to `3.2.0`
+- Segment Kotlin Version updated to `2.3.0`
+
 # 03-07-2024
 
 ## 4.3.0
