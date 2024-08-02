@@ -29,7 +29,7 @@ jobs:
       - name: Setup scripts
         working-directory: source
         run: |
-          chmod +x ./scripts/kotlin/workflow/release.main.kts
+          chmod +x ./scripts/release.main.kts
       - name: Release Catalog
         working-directory: source
         env:
@@ -40,4 +40,4 @@ jobs:
           ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
         run: |
-          kotlinc -script ./scripts/kotlin/workflow/release.main.kts "release" "level1"
+          kotlinc -script ./scripts/release.main.kts
