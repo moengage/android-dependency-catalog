@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    if: contains(fromJSON('["umangmoe", "arshiya-moengage"]'), github.actor)
+    environment: publishing_gradle_config
+    runs-on: SDKRunner
+    strategy:
+      fail-fast: true
+    steps:
+      - name: Checkout sdk automation scripts
+        uses: actions/checkout@v3
+        with:
+          repository: moengage/sdk-automation-scripts
+          path: sdk-automation-scripts
+          token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Automation script setup
+        uses: ./sdk-automation-scripts/actions/android-repository-setup
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: source
+          fetch-depth: 0
+          fetch-tags: true
+          token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Setup scripts
+        working-directory: source
+        run: |
+          chmod +x ./scripts/kotlin/workflow/release.main.kts
+      - name: Release Catalog
+        working-directory: source
+        env:
+          ORG_GRADLE_PROJECT_oss_mavenCentralUsername: ${{ secrets.ORG_GRADLE_PROJECT_oss_mavenCentralUsername }}
+          ORG_GRADLE_PROJECT_oss_mavenCentralPassword: ${{ secrets.ORG_GRADLE_PROJECT_oss_mavenCentralPassword }}
+          ORG_GRADLE_PROJECT_profileId: ${{ secrets.ORG_GRADLE_PROJECT_profileId }}
+          ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKey }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
+          ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
+        run: |
+          kotlinc -script ./scripts/kotlin/workflow/release.main.kts "release" "level1"

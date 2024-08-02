@@ -13,8 +13,7 @@
 
 plugins {
     `version-catalog`
-    `maven-publish`
-    signing
+    id("com.moengage.plugin.maven.publish").version("0.0.1")
 }
 
 catalog {
@@ -63,59 +62,4 @@ catalog {
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
 
     }
-}
-
-val mavenCentralRepositoryUsername: String by project
-val mavenCentralRepositoryPassword: String by project
-val libVersion = "4.4.0"
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "com.moengage"
-            artifactId = "android-dependency-catalog"
-            version = libVersion
-            from(components["versionCatalog"])
-            pom {
-                name.set("MoEngage Android Dependency Catalog")
-                description.set("Dependency Catalog for MoEngage's Android SDK")
-                url.set("https://moengage.com")
-                licenses {
-                    license {
-                        name.set("MoEngage Platform Licence")
-                        url.set("https://s3.amazonaws.com/licensesmoe/iplicense.txt")
-                    }
-                }
-                developers {
-                    developer {
-                        id.set("moengage")
-                        name.set("MoEngage")
-                        email.set("sdksubscriptions@moengage.com")
-                    }
-                }
-                scm {
-                    connection.set("scm:git@github.com:moengage/android-dependency-catalog.git")
-                    developerConnection.set("scm:git@github.com:moengage/android-dependency-catalog.git")
-                    url.set("https://moengage.com")
-                }
-            }
-        }
-        repositories {
-            maven {
-                credentials {
-                    username = mavenCentralRepositoryUsername
-                    password = mavenCentralRepositoryPassword
-                }
-                url = if (libVersion.endsWith("SNAPSHOT")) {
-                    uri("https://oss.sonatype.org/content/repositories/snapshots/")
-                } else {
-                    uri("https://oss.sonatype.org/service/local/staging/deploy/maven2/")
-                }
-            }
-        }
-    }
-}
-
-signing {
-    sign(publishing.publications["maven"])
 }
