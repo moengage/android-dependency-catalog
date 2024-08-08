@@ -5,9 +5,8 @@ on:
 
 jobs:
   release:
-    if: contains(fromJSON('["umangmoe", "arshiya-moengage"]'), github.actor)
     environment: publishing_gradle_config
-    runs-on: SDKRunner
+    runs-on: ubuntu-latest
     strategy:
       fail-fast: true
     steps:
@@ -26,10 +25,6 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
-      - name: Setup scripts
-        working-directory: source
-        run: |
-          chmod +x ./scripts/release.main.kts
       - name: Release Catalog
         working-directory: source
         env:
@@ -40,4 +35,4 @@ jobs:
           ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
         run: |
-          kotlinc -script ./scripts/release.main.kts
+          kotlinc -script ../sdk-automation-scripts/scripts/release/catalog-release.main.kts android-dependency-catalog master

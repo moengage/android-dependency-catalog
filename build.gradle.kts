@@ -13,7 +13,7 @@
 
 plugins {
     `version-catalog`
-    id("com.moengage.plugin.maven.publish").version("0.0.1")
+    id("com.moengage.plugin.maven.publish").version("0.0.2")
 }
 
 catalog {
@@ -60,6 +60,5 @@ catalog {
             )
         )
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
-
     }
 }
