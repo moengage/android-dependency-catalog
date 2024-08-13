@@ -1,3 +1,9 @@
+# Next Release
+
+## Next Version
+
+- Integrating the MoEngage release plugin
+
 # 31-07-2024
 
 ## 4.4.0
