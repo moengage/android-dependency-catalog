@@ -2,7 +2,7 @@
 
 ## 4.5.0
 
-- - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#31-07-2024-0-0)
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#10-09-2024-0-0)
 - Core SDK version updated to `13.05.00`
 - Cards Core version updated to `2.3.0`
 - Cards Ui version updated to `2.4.0`
