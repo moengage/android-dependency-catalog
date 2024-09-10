@@ -1,7 +1,17 @@
-# Next Release
+# 10-09-2024
 
-## Next Version
+## 4.5.0
 
+- - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#31-07-2024-0-0)
+- Core SDK version updated to `13.05.00`
+- Cards Core version updated to `2.3.0`
+- Cards Ui version updated to `2.4.0`
+- InApp version updated to `8.6.0`
+- Inbox Core version updated to `3.2.0`
+- Inbox UI version updated to `3.2.0`
+- Integration Verifier version updated to `5.3.0`
+- Real Time Trigger version updated to `3.4.0`
+- Segment Kotlin Version updated to `2.4.0`
 - Integrating the MoEngage release plugin
 
 # 31-07-2024
