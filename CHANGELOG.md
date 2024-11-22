@@ -15,7 +15,7 @@
 - Push Kit version update to `5.1.1`
 - Push Amp version update to `5.2.1`
 - Rich Notification version update to `5.1.1`
-- Segment Kotlin Version updated to `2.4.1`
+- Segment Kotlin Version updated to `2.4.2`
 - Integrating the MoEngage release plugin
 
 # 10-09-2024
