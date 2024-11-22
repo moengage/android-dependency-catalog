@@ -18,29 +18,29 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("13.05.00")
-        library("cardsCore", "com.moengage", "cards-core").version("2.3.0")
-        library("cardsUi", "com.moengage", "cards-ui").version("2.4.0")
-        library("geofence", "com.moengage", "geofence").version("4.2.0")
-        library("inapp", "com.moengage", "inapp").version("8.6.0")
-        library("inboxCore", "com.moengage", "inbox-core").version("3.2.0")
-        library("inboxUi", "com.moengage", "inbox-ui").version("3.2.0")
-        library("pushKit", "com.moengage", "hms-pushkit").version("5.1.0")
-        library("pushAmp", "com.moengage", "push-amp").version("5.2.0")
-        library("deviceTrigger", "com.moengage", "realtime-trigger").version("3.4.0")
-        library("richNotification", "com.moengage", "rich-notification").version("5.1.0")
+        library("core", "com.moengage", "moe-android-sdk").version("13.05.01")
+        library("cardsCore", "com.moengage", "cards-core").version("2.3.1")
+        library("cardsUi", "com.moengage", "cards-ui").version("2.4.1")
+        library("geofence", "com.moengage", "geofence").version("4.2.1")
+        library("inapp", "com.moengage", "inapp").version("8.6.1")
+        library("inboxCore", "com.moengage", "inbox-core").version("3.2.1")
+        library("inboxUi", "com.moengage", "inbox-ui").version("3.2.1")
+        library("pushKit", "com.moengage", "hms-pushkit").version("5.1.1")
+        library("pushAmp", "com.moengage", "push-amp").version("5.2.1")
+        library("deviceTrigger", "com.moengage", "realtime-trigger").version("3.4.1")
+        library("richNotification", "com.moengage", "rich-notification").version("5.1.1")
         library("security", "com.moengage", "security").version("3.2.0")
         library(
             "moengageSegmentIntegration",
             "com.moengage",
             "moengage-segment-integration"
         ).version("6.5.8")
-        library("integrationVerifier", "com.moengage", "integration-verifier").version("5.3.0")
+        library("integrationVerifier", "com.moengage", "integration-verifier").version("5.3.1")
         library(
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("2.4.0")
+        ).version("2.4.2")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("2.1.0")
         bundle(
             "all", listOf(

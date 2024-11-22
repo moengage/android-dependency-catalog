@@ -1,3 +1,23 @@
+# 22-11-2024
+
+## 4.5.0
+
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- Core SDK version updated to `13.05.01`
+- Cards Core version updated to `2.3.1`
+- Cards UI version updated to `2.4.1`
+- InApp version updated to `8.6.1`
+- Inbox Core version updated to `3.2.1`
+- Inbox UI version updated to `3.2.1`
+- Integration Verifier version updated to `5.3.1`
+- Real Time Trigger version updated to `3.4.1`
+- Geofence version update to `4.2.1`
+- Push Kit version update to `5.1.1`
+- Push Amp version update to `5.2.1`
+- Rich Notification version update to `5.1.1`
+- Segment Kotlin Version updated to `2.4.1`
+- Integrating the MoEngage release plugin
+
 # 10-09-2024
 
 ## 4.5.0
