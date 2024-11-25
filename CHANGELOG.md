@@ -1,7 +1,17 @@
+# 25-11-2024
+
+## 4.5.2
+
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- Incorrect InApp version in `4.5.1`, updated to the correct version `8.7.0`
+- Incorrect Segment Kotlin version in `4.5.1`, updated to the correct version `2.4.1`
+
+
 # 22-11-2024
 
 ## 4.5.1
 
+## NOTE: Segment and InApp versions are incorrect, please use `4.5.2`
 - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
 - Core SDK version updated to `13.05.01`
 - Cards Core version updated to `2.3.1`
