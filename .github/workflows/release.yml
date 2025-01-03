@@ -2,6 +2,19 @@ name: Release
 
 on:
   workflow_dispatch:
+    inputs:
+      releaseTicket:
+        type: string
+        description: 'Enter the Release ticket number'
+        required: true
+      releaseType:
+        type: string
+        description: 'Enter the Release type [major / minor / patch]'
+        required: true
+      releaseNotes:
+        type: string
+        description: 'Enter the Release note'
+        required: true
 
 jobs:
   release:
@@ -34,5 +47,6 @@ jobs:
           ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKey }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
           ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          kotlinc -script ../sdk-automation-scripts/scripts/release/catalog-release.main.kts android-dependency-catalog master
+          ../sdk-automation-scripts/scripts/android/master-release.main.kts android-dependency-catalog null ${{ github.event.inputs.releaseTicket }} ${{ github.event.inputs.releaseType }} false true ${{ github.event.inputs.releaseNotes }}
