@@ -17,6 +17,8 @@
 - Push Amp version update to `5.2.2`
 - Rich Notification version update to `5.1.2`
 - Segment Kotlin Version updated to `2.4.2`
+- Gradle publish plugin updated from `0.0.2` to `1.0.0`
+- Gradle version updated from `8.6` to `8.9`
 
 # 25-11-2024
 
