@@ -1,3 +1,10 @@
+# Release Date
+
+## Release Version
+
+- Gradle publish plugin updated from `0.0.2` to `1.0.0`
+- Gradle version updated from `8.6` to `8.9`
+
 # 25-11-2024
 
 ## 4.5.2
