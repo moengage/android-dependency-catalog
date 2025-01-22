@@ -1,3 +1,9 @@
+# Release Date
+
+## Release Version
+
+- Adding MoEngage <> mParticle Kit in catalog
+
 # 22-01-2025
 
 ## 4.5.3
