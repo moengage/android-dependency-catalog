@@ -1,6 +1,6 @@
-# 22-01-2025
+# Release Date
 
-## 4.5.3
+## Release Version
 
 - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
 - Core SDK version updated to `13.05.02`
