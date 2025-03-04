@@ -42,6 +42,7 @@ catalog {
             "moengage-segment-kotlin-destination"
         ).version("2.4.2")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("2.1.0")
+        library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
         bundle(
             "all", listOf(
                 "core",
