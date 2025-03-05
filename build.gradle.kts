@@ -61,5 +61,15 @@ catalog {
             )
         )
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
+
+        // Libraries Required by MoEngage (based on features used)
+        library("androidXCore", "androidx.core", "core").version("1.15.0")
+        library("androidXCompact", "androidx.appcompat", "appcompat").version("1.7.0")
+        library("androidXLifecycle", "androidx.lifecycle", "lifecycle-process").version("2.8.7")
+        library("gmsPlayLocation", "com.google.android.gms", "play-services-location").version("21.3.0")
+        library("gmsPlayAdIdentifier", "com.google.android.gms", "play-services-ads-identifier").version("18.2.0")
+        library("firebaseMessaging", "com.google.firebase", "firebase-messaging").version("24.1.0")
+        library("glide", "com.github.bumptech.glide", "glide").version("4.16.0")
+        library("hmsPushKit", "com.huawei.hms", "push").version("6.11.0.300")
     }
 }
