@@ -1,3 +1,18 @@
+# Release Date
+
+## Release Version
+- Adding External Libraries used by MoEngage SDK
+  |                       Library                       | Current Version     |
+  |:---------------------------------------------------:|:-------------------:|
+  | androidx.core:core                                  | 1.13.1              |
+  | androidx.appcompat:appcompat                        | 1.6.1               |
+  | androidx.lifecycle:lifecycle-process                | 2.7.0               |
+  | com.google.android.gms:play-services-location       | 21.2.0              |
+  | com.google.android.gms:play-services-ads-identifier | 18.0.1              |
+  | com.google.firebase:firebase-messaging              | 18.0.1              |
+  | com.github.bumptech.glide:glide                     | 4.16.0              |
+  | com.huawei.hms:push
+
 # 24-04-2025
 
 ## 4.8.0
