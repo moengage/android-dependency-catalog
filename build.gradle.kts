@@ -13,7 +13,7 @@
 
 plugins {
     `version-catalog`
-    id("com.moengage.plugin.maven.publish").version("0.0.2")
+    id("com.moengage.plugin.maven.publish").version("1.1.0")
 }
 
 catalog {

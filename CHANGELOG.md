@@ -3,6 +3,8 @@
 ## Release Version
 
 - Adding MoEngage <> mParticle Kit in catalog
+- Gradle publish plugin updated from `0.0.2` to `1.1.0`
+- Gradle version updated from `8.6` to `8.9`
 
 # 22-01-2025
 
