@@ -1,10 +1,26 @@
-# Release Date
+# 13-03-25
 
-## Release Version
+## 4.6.0
 
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
 - Adding MoEngage <> mParticle Kit in catalog
 - Gradle publish plugin updated from `0.0.2` to `1.1.0`
 - Gradle version updated from `8.6` to `8.9`
+- Core SDK version updated to `13.06.00`
+- Cards Core version updated to `2.4.0`
+- Cards UI version updated to `2.5.0`
+- InApp version updated to `8.8.0`
+- Inbox Core version updated to `3.3.0`
+- Inbox UI version updated to `3.3.0`
+- Integration Verifier version updated to `5.4.0`
+- Real Time Trigger version updated to `3.5.0`
+- Geofence version update to `4.3.0`
+- Push Kit version update to `5.2.0`
+- Push Amp version update to `5.3.0`
+- Rich Notification version update to `5.2.0`
+- Segment Kotlin Version updated to `2.5.0`
+- Encrypted Storage version updated to `2.2.0`
+- Security version updated to `3.3.0`
 
 # 22-01-2025
 
