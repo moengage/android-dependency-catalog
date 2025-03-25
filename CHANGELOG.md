@@ -4,14 +4,14 @@
 - Adding External Libraries used by MoEngage SDK
   |                       Library                       | Current Version     |
   |:---------------------------------------------------:|:-------------------:|
-  | androidx.core:core                                  | 1.13.1              |
-  | androidx.appcompat:appcompat                        | 1.6.1               |
-  | androidx.lifecycle:lifecycle-process                | 2.7.0               |
-  | com.google.android.gms:play-services-location       | 21.2.0              |
-  | com.google.android.gms:play-services-ads-identifier | 18.0.1              |
-  | com.google.firebase:firebase-messaging              | 18.0.1              |
+  | androidx.core:core                                  | 1.15.0              |
+  | androidx.appcompat:appcompat                        | 1.7.0               |
+  | androidx.lifecycle:lifecycle-process                | 2.8.7               |
+  | com.google.android.gms:play-services-location       | 21.3.0              |
+  | com.google.android.gms:play-services-ads-identifier | 18.2.0              |
+  | com.google.firebase:firebase-messaging              | 24.1.0              |
   | com.github.bumptech.glide:glide                     | 4.16.0              |
-  | com.huawei.hms:push                                 | 4.16.0              | 
+  | com.huawei.hms:push                                 | 6.11.0.300          | 
 - Adding MoEngage <> mParticle Kit in catalog
 
 # 22-01-2025
