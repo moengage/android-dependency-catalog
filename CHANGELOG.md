@@ -1,8 +1,8 @@
-# 24-04-25
+# Release Date
 
-## 4.7.1
+## Release Version
 - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
-- InApp version updated to `8.8.1`
+- [minor] InApp version updated to `8.8.1`
 
 # 13-03-25
 
