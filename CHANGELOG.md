@@ -1,6 +1,12 @@
+# 24-04-25
+
+## 4.7.1
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- InApp version updated to `8.8.1`
+
 # 13-03-25
 
-## 4.6.0
+## 4.7.0
 
 - Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
 - Adding MoEngage <> mParticle Kit in catalog

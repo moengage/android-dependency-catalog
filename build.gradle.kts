@@ -22,7 +22,7 @@ catalog {
         library("cardsCore", "com.moengage", "cards-core").version("2.4.0")
         library("cardsUi", "com.moengage", "cards-ui").version("2.5.0")
         library("geofence", "com.moengage", "geofence").version("4.3.0")
-        library("inapp", "com.moengage", "inapp").version("8.8.0")
+        library("inapp", "com.moengage", "inapp").version("8.8.1")
         library("inboxCore", "com.moengage", "inbox-core").version("3.3.0")
         library("inboxUi", "com.moengage", "inbox-ui").version("3.3.0")
         library("pushKit", "com.moengage", "hms-pushkit").version("5.2.0")
