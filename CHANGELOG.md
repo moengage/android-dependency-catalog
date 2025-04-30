@@ -1,6 +1,23 @@
 # Release Date
 
 ## Release Version
+- Release Notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- Core SDK version updated to `14.00.00`
+- Cards Core version updated to `3.0.0`
+- Cards Ui version updated to `3.0.0`
+- Encrypted Storage version updated to `3.0.0`
+- Geofence version updated to `5.0.0`
+- PushKit version updated to `6.0.0`
+- InApp version updated to `9.0.0`
+- Inbox Core version updated to `4.0.0`
+- Inbox UI version updated to `4.0.0`
+- PushAmp version updated to `6.0.0`
+- Real Time Trigger version updated to `4.0.0`
+- Rich Notification version updated to `6.0.0`
+- Security version updated to `4.0.0`
+- Segment Kotlin Version updated to `3.0.0`
+- Removed `integration-verifier` module
+- Removed `moengage-segment-integration` module
 - Adding External Libraries used by MoEngage SDK
   |                       Library                       | Current Version     |
   |:---------------------------------------------------:|:-------------------:|
