@@ -1,6 +1,6 @@
 ![Logo](/.github/logo.png)
 
-![version](https://maven-badges.herokuapp.com/maven-central/com.moengage/android-dependency-catalog/badge.svg)
+![version](https://img.shields.io/maven-central/v/com.moengage/android-dependency-catalog)
 
 ## Android SDK Dependency Catalog
 
