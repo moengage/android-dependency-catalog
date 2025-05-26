@@ -18,7 +18,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("14.00.00")
+        library("core", "com.moengage", "moe-android-sdk").version("14.00.01")
         library("cardsCore", "com.moengage", "cards-core").version("3.0.0")
         library("cardsUi", "com.moengage", "cards-ui").version("3.0.0")
         library("geofence", "com.moengage", "geofence").version("5.0.0")
@@ -34,7 +34,7 @@ catalog {
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("3.0.0")
+        ).version("3.0.1")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("3.0.0")
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
         bundle(
