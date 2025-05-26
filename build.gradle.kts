@@ -34,7 +34,7 @@ catalog {
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("3.0.1")
+        ).version("3.0.3")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("3.0.0")
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
         bundle(
