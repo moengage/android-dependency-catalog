@@ -1,3 +1,15 @@
+# Release Date
+
+## Release Version
+
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01JW5M3XB0J45DMMN76M03QR84)
+- Core SDK version updated to `14.01.00`
+- InApp version updated to `9.1.0`
+- Inbox Core version updated to `4.1.0`
+- Inbox UI version updated to `4.1.0`
+- Rich Notification version updated to `6.1.0`
+- Segment Kotlin Version updated to `3.1.0`
+
 # 26-05-2025
 
 ## 5.0.2
