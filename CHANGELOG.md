@@ -1,3 +1,11 @@
+# Release Date
+
+## Release Version
+
+- Release notes[here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog)
+- Core SDK version updated to `14.02.00`
+- Segment Kotlin Version updated to `3.1.1`
+
 # 05-06-2025
 
 ## 5.1.0
