@@ -1,6 +1,6 @@
-# Release Date
+# 19-06-2025
 
-## Release Version
+## 5.2.1
 
 - Segment Kotlin Version updated to `3.1.2`
 
