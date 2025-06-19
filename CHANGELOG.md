@@ -1,3 +1,9 @@
+# Release Date
+
+## Release Version
+
+- Segment Kotlin Version updated to `3.1.2`
+
 # 16-06-2025
 
 ## 5.2.0
