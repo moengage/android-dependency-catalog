@@ -18,23 +18,23 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("14.02.00")
-        library("cardsCore", "com.moengage", "cards-core").version("3.0.0")
-        library("cardsUi", "com.moengage", "cards-ui").version("3.0.0")
-        library("geofence", "com.moengage", "geofence").version("5.0.0")
-        library("inapp", "com.moengage", "inapp").version("9.1.0")
+        library("core", "com.moengage", "moe-android-sdk").version("14.02.01")
+        library("cardsCore", "com.moengage", "cards-core").version("3.1.0")
+        library("cardsUi", "com.moengage", "cards-ui").version("3.1.0")
+        library("geofence", "com.moengage", "geofence").version("5.0.1")
+        library("inapp", "com.moengage", "inapp").version("9.1.1")
         library("inboxCore", "com.moengage", "inbox-core").version("4.1.0")
         library("inboxUi", "com.moengage", "inbox-ui").version("4.1.0")
         library("pushKit", "com.moengage", "hms-pushkit").version("6.0.0")
-        library("pushAmp", "com.moengage", "push-amp").version("6.0.0")
-        library("deviceTrigger", "com.moengage", "realtime-trigger").version("4.0.0")
+        library("pushAmp", "com.moengage", "push-amp").version("6.0.1")
+        library("deviceTrigger", "com.moengage", "realtime-trigger").version("4.0.1")
         library("richNotification", "com.moengage", "rich-notification").version("6.1.0")
         library("security", "com.moengage", "security").version("4.0.0")
         library(
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("3.1.2")
+        ).version("3.1.3")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("3.0.0")
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
         bundle(
