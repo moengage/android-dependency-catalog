@@ -1,3 +1,6 @@
+import org.gradle.api.problems.internal.GradleCoreProblemGroup.versionCatalog
+import javax.xml.catalog.CatalogManager.catalog
+
 /*
  * Copyright (c) 2014-2021 MoEngage Inc.
  *
@@ -18,7 +21,7 @@ plugins {
 
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("14.02.01")
+        library("core", "com.moengage", "moe-android-sdk").version("14.02.02")
         library("cardsCore", "com.moengage", "cards-core").version("3.1.0")
         library("cardsUi", "com.moengage", "cards-ui").version("3.1.0")
         library("geofence", "com.moengage", "geofence").version("5.0.1")
@@ -34,7 +37,7 @@ catalog {
             "moengageSegmentKotlinDestination",
             "com.moengage",
             "moengage-segment-kotlin-destination"
-        ).version("3.1.3")
+        ).version("3.1.4")
         library("encryptedStorage", "com.moengage", "encrypted-storage").version("3.0.0")
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
         bundle(
