@@ -1,5 +1,8 @@
+@file:Suppress("UNCHECKED_CAST")
+
 import org.gradle.api.problems.internal.GradleCoreProblemGroup.versionCatalog
 import javax.xml.catalog.CatalogManager.catalog
+import groovy.json.JsonSlurper
 
 /*
  * Copyright (c) 2014-2021 MoEngage Inc.
@@ -19,27 +22,33 @@ plugins {
     id("com.moengage.plugin.maven.publish").version("1.1.0")
 }
 
+val versionData = JsonSlurper().parse(file("versions.json")) as Map<String, Any>
+val moengageVersions = (versionData["moengage"] as Map<String, String>)
+val externalsVersions = (versionData["externals"] as Map<String, String>)
+
+fun getVersion(module: String): String {
+    return moengageVersions[module]
+        ?: externalsVersions[module]
+        ?: error("Version not found for $module")
+}
+
 catalog {
     versionCatalog {
-        library("core", "com.moengage", "moe-android-sdk").version("14.03.03")
-        library("cardsCore", "com.moengage", "cards-core").version("3.1.2")
-        library("cardsUi", "com.moengage", "cards-ui").version("3.1.2")
-        library("geofence", "com.moengage", "geofence").version("5.0.2")
-        library("inapp", "com.moengage", "inapp").version("9.3.0")
-        library("inboxCore", "com.moengage", "inbox-core").version("4.1.0")
-        library("inboxUi", "com.moengage", "inbox-ui").version("4.1.0")
-        library("pushKit", "com.moengage", "hms-pushkit").version("6.1.1")
-        library("pushAmp", "com.moengage", "push-amp").version("6.1.1")
-        library("deviceTrigger", "com.moengage", "realtime-trigger").version("4.1.0")
-        library("richNotification", "com.moengage", "rich-notification").version("6.2.1")
-        library("security", "com.moengage", "security").version("4.0.0")
-        library(
-            "moengageSegmentKotlinDestination",
-            "com.moengage",
-            "moengage-segment-kotlin-destination"
-        ).version("3.2.3")
-        library("encryptedStorage", "com.moengage", "encrypted-storage").version("3.0.0")
-        library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version("1.1.0")
+        library("core", "com.moengage", "moe-android-sdk").version(getVersion("moe-android-sdk"))
+        library("cardsCore", "com.moengage", "cards-core").version(getVersion("cards-core"))
+        library("cardsUi", "com.moengage", "cards-ui").version(getVersion("cards-ui"))
+        library("geofence", "com.moengage", "geofence").version(getVersion("geofence"))
+        library("inapp", "com.moengage", "inapp").version(getVersion("inapp"))
+        library("inboxCore", "com.moengage", "inbox-core").version(getVersion("inbox-core"))
+        library("inboxUi", "com.moengage", "inbox-ui").version(getVersion("inbox-ui"))
+        library("pushKit", "com.moengage", "hms-pushkit").version(getVersion("hms-pushkit"))
+        library("pushAmp", "com.moengage", "push-amp").version(getVersion("push-amp"))
+        library("deviceTrigger", "com.moengage", "realtime-trigger").version(getVersion("realtime-trigger"))
+        library("richNotification", "com.moengage", "rich-notification").version(getVersion("rich-notification"))
+        library("security", "com.moengage", "security").version(getVersion("security"))
+        library("moengageSegmentKotlinDestination", "com.moengage", "moengage-segment-kotlin-destination").version(getVersion("moengage-segment-kotlin-destination"))
+        library("encryptedStorage", "com.moengage", "encrypted-storage").version(getVersion("encrypted-storage"))
+        library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version(getVersion("mparticle-android-integration-moengage"))
         bundle(
             "all", listOf(
                 "core",
@@ -59,13 +68,13 @@ catalog {
         bundle("storageEncryption", listOf("encryptedStorage", "security"))
 
         // Libraries Required by MoEngage (based on features used)
-        library("androidXCore", "androidx.core", "core").version("1.15.0")
-        library("androidXCompact", "androidx.appcompat", "appcompat").version("1.7.0")
-        library("androidXLifecycle", "androidx.lifecycle", "lifecycle-process").version("2.8.7")
-        library("gmsPlayLocation", "com.google.android.gms", "play-services-location").version("21.3.0")
-        library("gmsPlayAdIdentifier", "com.google.android.gms", "play-services-ads-identifier").version("18.2.0")
-        library("firebaseMessaging", "com.google.firebase", "firebase-messaging").version("24.1.0")
-        library("glide", "com.github.bumptech.glide", "glide").version("4.16.0")
-        library("hmsPushKit", "com.huawei.hms", "push").version("6.11.0.300")
+        library("androidXCore", "androidx.core", "core").version(getVersion("core"))
+        library("androidXCompact", "androidx.appcompat", "appcompat").version(getVersion("appcompat"))
+        library("androidXLifecycle", "androidx.lifecycle", "lifecycle-process").version(getVersion("lifecycle-process"))
+        library("gmsPlayLocation", "com.google.android.gms", "play-services-location").version(getVersion("play-services-location"))
+        library("gmsPlayAdIdentifier", "com.google.android.gms", "play-services-ads-identifier").version(getVersion("play-services-ads-identifier"))
+        library("firebaseMessaging", "com.google.firebase", "firebase-messaging").version(getVersion("firebase-messaging"))
+        library("glide", "com.github.bumptech.glide", "glide").version(getVersion("glide"))
+        library("hmsPushKit", "com.huawei.hms", "push").version(getVersion("push"))
     }
 }
