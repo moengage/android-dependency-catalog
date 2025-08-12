@@ -1,3 +1,13 @@
+# Release Date
+
+## Release Version
+
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01JW5M3XB0J45DMMN76M03QR84)
+- Core SDK version updated to `14.03.02`
+- RichNotification version updated to `6.2.1`
+- PushKit version updated to `6.1.1`
+- Segment version updated to `3.2.2`
+
 # 04-08-2025
 
 ## 5.4.1
