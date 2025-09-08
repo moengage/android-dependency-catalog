@@ -1,6 +1,6 @@
-# Release Date
+# 08-09-2025
 
-## Release Version
+## 5.4.3
 
 - Release Notes[here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#8th-september-2025-0-0)
 - moe-android-sdk: 14.03.03 
