@@ -1,3 +1,16 @@
+# Release Date
+
+## Release Version
+
+- Release Notes[here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#8th-september-2025-0-0)
+- moe-android-sdk: 14.03.03 
+- cards-core: 3.1.2 
+- cards-ui: 3.1.2 
+- geofence: 5.0.2 
+- inapp: 9.3.0 
+- push-amp: 6.1.1
+- moengage-segment-kotlin-destination: 3.2.3
+
 # 12-08-2025
 
 ## 5.4.2
