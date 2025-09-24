@@ -1,15 +1,15 @@
-# Release Date
+# 24-09-2025
 
-## Release Version
+## 6.0.0
 
-- [patch] moe-android-sdk updated to 14.03.04
-- [patch] cards-ui updated to 3.1.3
-- [patch] cards-core updated to 3.1.3
-- [patch] geofence updated to 5.0.3
-- [minor] inapp updated to 9.4.0
-- [patch] realtime-trigger updated to 4.1.1
-- [patch] moengage-segment-kotlin-destination updated to 3.2.4
-- [major] mparticle-android-integration-moengage updated to 2.0.0
+- moe-android-sdk updated to 14.03.04
+- cards-ui updated to 3.1.3
+- cards-core updated to 3.1.3
+- geofence updated to 5.0.3
+- inapp updated to 9.4.0
+- realtime-trigger updated to 4.1.1
+- moengage-segment-kotlin-destination updated to 3.2.4
+- mparticle-android-integration-moengage updated to 2.0.0
 
 # 08-09-2025
 
