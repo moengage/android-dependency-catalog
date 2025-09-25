@@ -1,3 +1,11 @@
+# Release Date
+
+## Release Version
+
+- [patch] moe-android-sdk updated to 14.03.05
+- [patch] moengage-segment-kotlin-destination updated to 3.2.5
+- [patch] mparticle-android-integration-moengage updated to 2.0.1
+
 # 24-09-2025
 
 ## 6.0.0
