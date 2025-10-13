@@ -1,9 +1,3 @@
-# Release Date
-
-## Release Version
-
-- Adding Bill-Of-Material for MoEngage Android SDK
-
 # 25-09-2025
 
 ## 6.0.1
