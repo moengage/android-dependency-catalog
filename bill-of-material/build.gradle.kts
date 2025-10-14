@@ -17,6 +17,7 @@ import groovy.json.JsonSlurper
 
 plugins {
     alias(libs.plugins.plugin.release)
+    `java-platform`
 }
 
 val versionData = JsonSlurper().parse(file("../meta-data/versions.json")) as Map<String, Any>

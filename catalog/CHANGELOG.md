@@ -2,7 +2,7 @@
 
 ## Release Version
 
-- [minor] Adding Bill-Of-Material for MoEngage Android SDK
+- [patch] Folder restructure due to addition of Bill-Of-Material for MoEngage Android SDK
 
 # 25-09-2025
 
