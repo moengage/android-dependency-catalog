@@ -1,0 +1,2 @@
+[plugins]
+plugin-release = {id = "com.moengage.plugin.maven.publish", version = "1.1.0" }

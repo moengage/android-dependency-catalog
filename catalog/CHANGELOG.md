@@ -1,3 +1,9 @@
+# Release Date
+
+## Release Version
+
+- [patch] Folder restructure due to addition of Bill-Of-Material for MoEngage Android SDK
+
 # 25-09-2025
 
 ## 6.0.1
