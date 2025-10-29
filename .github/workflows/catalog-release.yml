@@ -43,4 +43,4 @@ jobs:
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
       - name: Release Catalog
         run: |
-          ./sdk-automation-scripts/scripts/android/single-module-release.main.kts catalog catalog ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} catalog
+          kotlin ./sdk-automation-scripts/scripts/android/single-module-release.main.kts catalog catalog ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} catalog

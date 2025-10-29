@@ -45,4 +45,4 @@ jobs:
       - name: Release Catalog
         working-directory: source
         run: |
-          ../sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
+          kotlin ./sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
