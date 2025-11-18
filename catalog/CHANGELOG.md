@@ -1,3 +1,14 @@
+# Release Date
+
+## Release Version
+
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- [patch] moe-android-sdk updated to 14.04.01
+- [patch] cards-ui updated to 3.2.1
+- [patch] cards-core updated to 3.2.1
+- [patch] moengage-segment-kotlin-destination updated to 3.3.1
+- [patch] mparticle-android-integration-moengage updated to 2.1.1
+
 # 29-10-2025
 
 ## 6.1.0
