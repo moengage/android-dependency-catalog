@@ -38,11 +38,11 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
         with:
-          path: source
+          path: android-dependency-catalog
           fetch-depth: 0
           fetch-tags: true
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
       - name: Release Catalog
-        working-directory: source
+        working-directory: android-dependency-catalog
         run: |
-          kotlin ./sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
+          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
