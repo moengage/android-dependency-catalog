@@ -1,3 +1,8 @@
+# Release Date
+
+## Release Version
+- `moe-android-sdk` added as a dependency to avoid additional dependency addition.
+
 # 18-11-2025
 
 ## 1.1.1

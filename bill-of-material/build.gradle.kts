@@ -27,9 +27,13 @@ fun getVersion(module: String): String {
     return moengageVersions[module] ?: error("Version not found for $module")
 }
 
+javaPlatform {
+    allowDependencies()
+}
+
 dependencies {
+    api("com.moengage:moe-android-sdk:${getVersion("moe-android-sdk")}")
     constraints {
-        api("com.moengage:moe-android-sdk:${getVersion("moe-android-sdk")}")
         api("com.moengage:cards-core:${getVersion("cards-core")}")
         api("com.moengage:cards-ui:${getVersion("cards-ui")}")
         api("com.moengage:geofence:${getVersion("geofence")}")
