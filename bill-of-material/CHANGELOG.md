@@ -1,6 +1,19 @@
 # Release Date
 
 ## Release Version
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/4403896795540-Changelog#h_01J7DSYJ31HERNRM1H92PAMAHR)
+- [patch] moe-android-sdk updated to 14.04.03
+- [patch] cards-ui updated to 3.2.2
+- [patch] inbox-ui updated to 4.2.1
+- [patch] cards-core updated to 3.2.2
+- [patch] geofence updated to 5.1.1
+- [minor] inapp updated to 9.6.1
+- [patch] inbox-core updated to 4.2.1
+- [patch] push-amp updated to 6.2.2
+- [patch] realtime-trigger updated to 4.2.2
+- [patch] moengage-segment-kotlin-destination updated to 3.3.2
+- [patch] mparticle-android-integration-moengage updated to 2.1.2
+
 - [patch] `moe-android-sdk` added as a dependency to avoid additional dependency addition.
 
 # 18-11-2025
