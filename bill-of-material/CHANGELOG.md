@@ -1,3 +1,13 @@
+# Release Date
+
+## Release Version
+
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/41454958298132-2025#h_01KCR9Y4Q538A0E5KGBGHMEYFA)
+- [patch] moe-android-sdk updated to 14.04.04
+- [minor] inapp updated to 9.7.0
+- [patch] moengage-segment-kotlin-destination updated to 3.3.3
+- [patch] mparticle-android-integration-moengage updated to 2.1.3
+
 # 11-12-2025
 
 ## 1.2.0
