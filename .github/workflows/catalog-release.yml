@@ -20,6 +20,10 @@ env:
   ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
   GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
 
+concurrency:
+  group: catalog-repo-updates
+  cancel-in-progress: false
+
 jobs:
   release:
     environment: publishing_gradle_config
