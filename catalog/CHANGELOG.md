@@ -1,12 +1,12 @@
-# Release Date
+# 20-01-2026
 
-## Release Version
+## 6.4.1
 
 - Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KCR9Y4Q538A0E5KGBGHMEYFA)
-- [patch] moe-android-sdk updated to 14.05.01
-- [patch] inapp updated to 9.8.1
-- [patch] moengage-segment-kotlin-destination updated to 3.4.1
-- [patch] mparticle-android-integration-moengage updated to 2.2.1
+- moe-android-sdk updated to 14.05.01
+- inapp updated to 9.8.1
+- moengage-segment-kotlin-destination updated to 3.4.1
+- mparticle-android-integration-moengage updated to 2.2.1
 
 # 19-01-2026
 
