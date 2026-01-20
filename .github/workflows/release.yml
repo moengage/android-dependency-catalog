@@ -11,6 +11,23 @@ on:
         type: string
         description: 'Enter the Release note'
         required: true
+      shouldReleaseBOM:
+        type: boolean
+        description: 'Should release BOM?'
+        default: true
+      shouldReleaseCatalog:
+        type: boolean
+        description: 'Should release Catalog?'
+        default: true
+
+env:
+  ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.ORG_GRADLE_PROJECT_mavenCentralUsername }}
+  ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.ORG_GRADLE_PROJECT_mavenCentralPassword }}
+  ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKey }}
+  ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
+  ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
+  GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+
 
 jobs:
   release:
@@ -19,15 +36,28 @@ jobs:
     strategy:
       fail-fast: true
     steps:
+      - name: Checkout sdk automation scripts
+        uses: actions/checkout@v3
+        with:
+          repository: moengage/sdk-automation-scripts
+          path: sdk-automation-scripts
+          token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Automation script setup
+        uses: ./sdk-automation-scripts/actions/android-repository-setup
       - name: Checkout code
         uses: actions/checkout@v3
         with:
+          path: android-dependency-catalog
           fetch-depth: 0
           fetch-tags: true
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
-      - name: Release Catalog
-        env:
-          GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Release BOM
+        if: ${{ github.event.inputs.shouldReleaseBOM }}
+        working-directory: android-dependency-catalog
         run: |
-          gh workflow run catalog-release.yml -f releaseTicket="${{ github.event.inputs.releaseTicket }}" -f releaseNotes="${{ github.event.inputs.releaseNotes }}"
-          gh workflow run bom-release.yml -f releaseTicket="${{ github.event.inputs.releaseTicket }}" -f releaseNotes="${{ github.event.inputs.releaseNotes }}"
+          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
+      - name: Release Catalog
+        if: ${{ github.event.inputs.shouldReleaseCatalog }}
+        working-directory: android-dependency-catalog
+        run: |
+          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts catalog catalog ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} catalog
