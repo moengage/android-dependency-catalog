@@ -1,3 +1,13 @@
+
+# Release Date
+
+## Release Version- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
+- [minor] moe-android-sdk updated to 14.06.00
+- [minor] inapp updated to 9.9.0
+- [patch] rich-notification updated to 6.4.1
+- [minor] moengage-segment-kotlin-destination updated to 3.5.0
+- [minor] mparticle-android-integration-moengage updated to 2.3.0
+
 # 20-01-2026
 
 ## 6.4.1
