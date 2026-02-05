@@ -1,4 +1,10 @@
 
+# Release Date
+
+## Release Version- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
+- [patch] inapp updated to 9.9.1
+
+
 # 29-01-2026
 
 ## 1.5.0- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
