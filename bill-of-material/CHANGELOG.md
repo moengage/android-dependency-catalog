@@ -1,13 +1,15 @@
 
 # 05-02-2026
 
-## 1.5.1- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
+## 1.5.1
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
 - inapp updated to 9.9.1
 
 
 # 29-01-2026
 
-## 1.5.0- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
+## 1.5.0
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
 - moe-android-sdk updated to 14.06.00
 - inapp updated to 9.9.0
 - rich-notification updated to 6.4.1
