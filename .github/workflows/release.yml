@@ -61,3 +61,9 @@ jobs:
         working-directory: android-dependency-catalog
         run: |
           kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts catalog catalog ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} catalog
+      - name: Notify Release
+        working-directory: android-dependency-catalog
+        run: |
+          kotlin .github/scripts/notify-release.main.kts "${{ github.event.inputs.releaseNotes }}"
+        env:
+          GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
