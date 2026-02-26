@@ -1,3 +1,8 @@
+# Release Date
+
+## Release Version
+
+- [minor] Gradle version updated from `8.9` to `8.13`
 
 # 05-02-2026
 
