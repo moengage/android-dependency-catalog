@@ -53,7 +53,7 @@ println(versionString)
 
 triggerReleaseNotification(mapOf(
   notifyReleaseFrameworkParameterName to "Android Native SDK",
-  notifyReleaseVersionParameterName to "BOM version: ${sdkVersions["Bill of Material"]}",
+  notifyReleaseVersionParameterName to "BOM version: ${versions["Bill of Material"]}",
   notifyReleaseMessageParameterName to versionString,
   notifyReleaseReleaseNotesParameterName to releaseNotes
 ))
