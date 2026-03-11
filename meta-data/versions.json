@@ -1,12 +1,12 @@
 {
     "moengage": {
-        "moe-android-sdk": "14.06.00",
+        "moe-android-sdk": "14.07.00",
         "encrypted-storage": "3.2.0",
         "geofence": "5.2.0",
-        "inapp": "9.9.1",
+        "inapp": "10.0.0",
         "mparticle-android-integration-moengage": "2.3.0",
         "inbox-ui": "4.3.0",
-        "cards-ui": "3.3.0",
+        "cards-ui": "3.3.1",
         "security": "4.2.0",
         "rich-notification": "6.4.1",
         "push-amp": "6.3.0",

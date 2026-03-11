@@ -1,6 +1,10 @@
 # Release Date
 
 ## Release Version
+- Release notes [here](https://developers.moengage.com/hc/en-us/articles/44954767963284-2026#h_01KFD9D3PY3AF03HPJP19XYNZ0)
+- [minor] moe-android-sdk updated to 14.07.00
+- [patch] cards-ui updated to 3.3.1
+- [major] inapp updated to 10.0.0
 
 - [minor] Gradle version updated from `8.9` to `8.13`
 
