@@ -45,6 +45,7 @@ dependencies {
         api("com.moengage:realtime-trigger:${getVersion("realtime-trigger")}")
         api("com.moengage:rich-notification:${getVersion("rich-notification")}")
         api("com.moengage:security:${getVersion("security")}")
+        api("com.moengage:personalization-core:${getVersion("personalization-core")}")
         api("com.moengage:moengage-segment-kotlin-destination:${getVersion("moengage-segment-kotlin-destination")}")
         api("com.moengage:encrypted-storage:${getVersion("encrypted-storage")}")
         api("com.moengage:mparticle-android-integration-moengage:${getVersion("mparticle-android-integration-moengage")}")

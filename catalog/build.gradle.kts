@@ -46,6 +46,7 @@ catalog {
         library("deviceTrigger", "com.moengage", "realtime-trigger").version(getVersion("realtime-trigger"))
         library("richNotification", "com.moengage", "rich-notification").version(getVersion("rich-notification"))
         library("security", "com.moengage", "security").version(getVersion("security"))
+        library("personalizationCore", "com.moengage", "personalization-core").version(getVersion("personalization-core"))
         library("moengageSegmentKotlinDestination", "com.moengage", "moengage-segment-kotlin-destination").version(getVersion("moengage-segment-kotlin-destination"))
         library("encryptedStorage", "com.moengage", "encrypted-storage").version(getVersion("encrypted-storage"))
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version(getVersion("mparticle-android-integration-moengage"))

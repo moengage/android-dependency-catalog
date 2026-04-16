@@ -14,6 +14,7 @@
         "realtime-trigger": "4.5.0",
         "inbox-core": "4.5.0",
         "hms-pushkit": "6.5.0",
+        "personalization-core": "1.0.0",
         "moengage-segment-kotlin-destination": "3.7.0"
     },
     "externals": {
