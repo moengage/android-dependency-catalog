@@ -1,9 +1,9 @@
 
-# Release Date
+# 16-04-2026
 
-## Release Version
+## 7.2.1
 - Release notes [here](https://www.moengage.com/docs/developer-guide/release-notes/android-sdk/2026-1#16th-april-2026)
-- [patch] personalization-core updated to 1.0.1
+- personalization-core updated to 1.0.1
 
 
 # 15-04-2026
