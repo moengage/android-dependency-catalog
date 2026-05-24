@@ -1,3 +1,8 @@
+# Release Date
+
+## Release Version
+
+- [major] MOEN-44590: Gradle wrapper updated from `8.13` to `9.3.1`
 
 # 06-05-2026
 
