@@ -1,21 +1,21 @@
 {
     "moengage": {
-        "moe-android-sdk": "14.09.01",
+        "moe-android-sdk": "14.09.02",
         "encrypted-storage": "3.4.0",
         "geofence": "5.4.0",
-        "inapp": "10.2.0",
-        "mparticle-android-integration-moengage": "2.5.1",
+        "inapp": "10.2.1",
+        "mparticle-android-integration-moengage": "2.5.2",
         "inbox-ui": "4.5.0",
-        "cards-ui": "3.5.0",
+        "cards-ui": "3.5.1",
         "security": "4.4.0",
         "rich-notification": "6.6.0",
         "personalization-core": "1.0.1",
-        "push-amp": "6.5.0",
-        "cards-core": "3.5.0",
-        "realtime-trigger": "4.5.0",
+        "push-amp": "6.5.1",
+        "cards-core": "3.5.1",
+        "realtime-trigger": "4.5.1",
         "inbox-core": "4.5.0",
         "hms-pushkit": "6.5.0",
-        "moengage-segment-kotlin-destination": "3.7.1"
+        "moengage-segment-kotlin-destination": "3.7.2"
     },
     "externals": {
         "core": "1.15.0",
