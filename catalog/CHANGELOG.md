@@ -1,16 +1,16 @@
 
-# Release Date
+# 26-05-2026
 
-## Release Version
+## 7.2.3
 - Release notes [here](https://www.moengage.com/docs/developer-guide/release-notes/android-sdk#26th-may-2026)
-- [patch] moe-android-sdk updated to 14.09.02
-- [patch] cards-ui updated to 3.5.1
-- [patch] cards-core updated to 3.5.1
-- [patch] inapp updated to 10.2.1
-- [patch] push-amp updated to 6.5.1
-- [patch] realtime-trigger updated to 4.5.1
-- [patch] moengage-segment-kotlin-destination updated to 3.7.2
-- [patch] mparticle-android-integration-moengage updated to 2.5.2
+- moe-android-sdk updated to 14.09.02
+- cards-ui updated to 3.5.1
+- cards-core updated to 3.5.1
+- inapp updated to 10.2.1
+- push-amp updated to 6.5.1
+- realtime-trigger updated to 4.5.1
+- moengage-segment-kotlin-destination updated to 3.7.2
+- mparticle-android-integration-moengage updated to 2.5.2
 
 
 # 06-05-2026
