@@ -1,4 +1,18 @@
 
+# Release Date
+
+## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#23rd-june-2026)
+- [minor] moe-android-sdk updated to 14.10.00
+- [patch] inbox-ui updated to 4.5.1
+- [minor] inapp updated to 10.3.0
+- [patch] inbox-core updated to 4.5.1
+- [patch] rich-notification updated to 6.6.1
+- [minor] personalization-core updated to 1.1.0
+- [minor] moengage-segment-kotlin-destination updated to 3.8.0
+- [minor] mparticle-android-integration-moengage updated to 2.6.0
+
+
 # 26-05-2026
 
 ## 7.2.3
