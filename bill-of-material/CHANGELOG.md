@@ -1,3 +1,9 @@
+# Release Date
+
+## Release Version
+
+- [major] MOEN-44590: Gradle wrapper updated from `8.13` to `9.3.1`
+- [major] MOEN-44590: `com.moengage.plugin.maven.publish` updated from `1.1.0` to `2.0.1`
 
 # 23-06-2026
 

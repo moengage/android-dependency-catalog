@@ -18,12 +18,12 @@
         "moengage-segment-kotlin-destination": "3.8.0"
     },
     "externals": {
-        "core": "1.15.0",
-        "firebase-messaging": "24.1.0",
-        "lifecycle-process": "2.8.7",
-        "play-services-ads-identifier": "18.2.0",
-        "appcompat": "1.7.0",
-        "glide": "4.16.0",
+        "core": "1.16.0",
+        "firebase-messaging": "25.0.1",
+        "lifecycle-process": "2.10.0",
+        "play-services-ads-identifier": "18.3.0",
+        "appcompat": "1.7.1",
+        "glide": "5.0.7",
         "push": "6.11.0.300",
         "play-services-location": "21.3.0"
     }

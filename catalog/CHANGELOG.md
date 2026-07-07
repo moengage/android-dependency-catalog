@@ -1,3 +1,18 @@
+# Release Date
+
+## Release Version
+
+- [major] MOEN-44590: Gradle wrapper updated from `8.13` to `9.3.1`
+- [major] MOEN-44590: `com.moengage.plugin.maven.publish` updated from `1.1.0` to `2.0.1`
+- [major] MOEN-44590: `meta-data/versions.json` external dependency updates
+  |                       Library / Plugin                              | Current Version     | Next Version       |
+  |:-------------------------------------------------------------------:|:-------------------:|:------------------:|
+  | androidx.core:core                                                  | 1.15.0              | 1.16.0             |
+  | androidx.appcompat:appcompat                                        | 1.7.0               | 1.7.1              |
+  | androidx.lifecycle:lifecycle-process                                | 2.8.7               | 2.10.0             |
+  | com.google.firebase:firebase-messaging                              | 24.1.0              | 25.0.1             |
+  | com.google.android.gms:play-services-ads-identifier                 | 18.2.0              | 18.3.0             |
+  | com.github.bumptech.glide:glide                                     | 4.16.0              | 5.0.7              |
 
 # 23-06-2026
 
