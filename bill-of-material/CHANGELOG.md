@@ -1,15 +1,15 @@
 
-# Release Date
+# 03-08-2026
 
-## Release Version
+## 4.1.0
 - Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#3rd-aug-2026)
-- [minor] moe-android-sdk updated to 15.01.00
-- [patch] cards-ui updated to 4.0.1
-- [patch] cards-core updated to 4.0.1
-- [minor] hms-pushkit updated to 7.1.0
-- [minor] inapp updated to 11.1.0
-- [minor] moengage-segment-kotlin-destination updated to 4.1.0
-- [minor] mparticle-android-integration-moengage updated to 3.1.0
+- moe-android-sdk updated to 15.01.00
+- cards-ui updated to 4.0.1
+- cards-core updated to 4.0.1
+- hms-pushkit updated to 7.1.0
+- inapp updated to 11.1.0
+- moengage-segment-kotlin-destination updated to 4.1.0
+- mparticle-android-integration-moengage updated to 3.1.0
 
 
 # 07-07-2026
