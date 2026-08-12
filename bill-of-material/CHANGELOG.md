@@ -1,4 +1,16 @@
 
+# Release Date
+
+## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#12th-august-2026)
+- [minor] moe-android-sdk updated to 15.02.00
+- [minor] cards-ui updated to 4.1.0
+- [minor] inapp updated to 11.2.0
+- [minor] rich-notification updated to 7.1.0
+- [minor] moengage-segment-kotlin-destination updated to 4.2.0
+- [minor] mparticle-android-integration-moengage updated to 3.2.0
+
+
 # 03-08-2026
 
 ## 4.1.0
