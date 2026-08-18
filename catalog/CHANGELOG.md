@@ -1,4 +1,12 @@
 
+# Release Date
+
+## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#18th-august-2026)
+- [patch] inapp updated to 11.2.1
+- [minor] personalization-core updated to 2.1.0
+
+
 # 12-08-2026
 
 ## 9.2.0
