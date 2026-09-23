@@ -1,4 +1,23 @@
 
+# Release Date
+
+## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#23rd-september-2026)
+- [minor] moe-android-sdk updated to 15.03.00
+- [patch] cards-ui updated to 4.1.1
+- [minor] cards-ui-compose updated to 1.0.0
+- [patch] cards-core updated to 4.0.2
+- [minor] geofence updated to 6.1.0
+- [patch] inapp updated to 11.2.2
+- [patch] inbox-core updated to 5.0.1
+- [patch] realtime-trigger updated to 5.0.1
+- [patch] rich-notification updated to 7.1.1
+- [patch] encrypted-storage updated to 4.0.1
+- [patch] personalization-core updated to 2.1.1
+- [minor] moengage-segment-kotlin-destination updated to 4.3.0
+- [minor] mparticle-android-integration-moengage updated to 3.3.0
+
+
 # 18-08-2026
 
 ## 9.3.0
