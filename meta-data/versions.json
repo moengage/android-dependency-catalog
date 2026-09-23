@@ -7,6 +7,7 @@
         "mparticle-android-integration-moengage": "3.2.0",
         "inbox-ui": "5.0.0",
         "cards-ui": "4.1.0",
+        "cards-ui-compose": "0.0.1",
         "security": "5.0.0",
         "rich-notification": "7.1.0",
         "personalization-core": "2.1.0",

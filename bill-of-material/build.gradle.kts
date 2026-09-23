@@ -36,6 +36,7 @@ dependencies {
     constraints {
         api("com.moengage:cards-core:${getVersion("cards-core")}")
         api("com.moengage:cards-ui:${getVersion("cards-ui")}")
+        api("com.moengage:cards-ui-compose:${getVersion("cards-ui-compose")}")
         api("com.moengage:geofence:${getVersion("geofence")}")
         api("com.moengage:inapp:${getVersion("inapp")}")
         api("com.moengage:inbox-core:${getVersion("inbox-core")}")
