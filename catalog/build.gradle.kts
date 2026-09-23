@@ -37,6 +37,7 @@ catalog {
         library("core", "com.moengage", "moe-android-sdk").version(getVersion("moe-android-sdk"))
         library("cardsCore", "com.moengage", "cards-core").version(getVersion("cards-core"))
         library("cardsUi", "com.moengage", "cards-ui").version(getVersion("cards-ui"))
+        library("cardsUiCompose", "com.moengage", "cards-ui-compose").version(getVersion("cards-ui-compose"))
         library("geofence", "com.moengage", "geofence").version(getVersion("geofence"))
         library("inapp", "com.moengage", "inapp").version(getVersion("inapp"))
         library("inboxCore", "com.moengage", "inbox-core").version(getVersion("inbox-core"))
