@@ -1,4 +1,4 @@
-name: Release
+name: Publish
 
 on:
   workflow_dispatch:
@@ -32,7 +32,7 @@ env:
 
 
 jobs:
-  release:
+  publish:
     environment: publishing_gradle_config
     runs-on: ubuntu-latest
     steps:
@@ -51,18 +51,18 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
-      - name: Release BOM
+      - name: Publish BOM
         if: ${{ inputs.shouldReleaseBOM }}
         working-directory: android-dependency-catalog
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/prepare-release.main.kts bill-of-material bom bill-of-material true
-      - name: Release Catalog
+          kotlin ../sdk-automation-scripts/scripts/android/publish-module.main.kts bill-of-material bom true
+      - name: Publish Catalog
         if: ${{ inputs.shouldReleaseCatalog }}
         working-directory: android-dependency-catalog
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/prepare-release.main.kts catalog catalog catalog true
-      - name: Start Publish
+          kotlin ../sdk-automation-scripts/scripts/android/publish-module.main.kts catalog catalog true
+      - name: Start Post Release
         run: |
-          gh workflow run publish.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
+          gh workflow run post_release.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
             -f releaseTicket="$RELEASE_TICKET" -f releaseNotes="$RELEASE_NOTES" \
             -f shouldReleaseBOM=${{ inputs.shouldReleaseBOM }} -f shouldReleaseCatalog=${{ inputs.shouldReleaseCatalog }}

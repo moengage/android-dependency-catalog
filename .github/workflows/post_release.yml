@@ -1,4 +1,4 @@
-name: Release
+name: Post Release
 
 on:
   workflow_dispatch:
@@ -19,20 +19,19 @@ on:
         type: boolean
         description: 'Should release Catalog?'
         default: true
+      forceSlack:
+        type: boolean
+        description: 'Send Slack even if the GitHub releases already exist?'
+        default: false
+
 
 env:
-  ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.ORG_GRADLE_PROJECT_mavenCentralUsername }}
-  ORG_GRADLE_PROJECT_mavenCentralPassword: ${{ secrets.ORG_GRADLE_PROJECT_mavenCentralPassword }}
-  ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKey }}
-  ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
-  ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
   GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
-  RELEASE_TICKET: ${{ inputs.releaseTicket }}
   RELEASE_NOTES: ${{ inputs.releaseNotes }}
 
 
 jobs:
-  release:
+  post-release:
     environment: publishing_gradle_config
     runs-on: ubuntu-latest
     steps:
@@ -51,18 +50,20 @@ jobs:
           fetch-depth: 0
           fetch-tags: true
           token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
-      - name: Release BOM
+      - name: Post Release BOM
+        id: bom
         if: ${{ inputs.shouldReleaseBOM }}
         working-directory: android-dependency-catalog
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/prepare-release.main.kts bill-of-material bom bill-of-material true
-      - name: Release Catalog
+          kotlin ../sdk-automation-scripts/scripts/android/post-release.main.kts bill-of-material bom true
+      - name: Post Release Catalog
+        id: catalog
         if: ${{ inputs.shouldReleaseCatalog }}
         working-directory: android-dependency-catalog
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/prepare-release.main.kts catalog catalog catalog true
-      - name: Start Publish
+          kotlin ../sdk-automation-scripts/scripts/android/post-release.main.kts catalog catalog true
+      - name: Notify Release
+        if: ${{ steps.bom.outputs.releaseCreated == 'true' || steps.catalog.outputs.releaseCreated == 'true' || inputs.forceSlack }}
+        working-directory: android-dependency-catalog
         run: |
-          gh workflow run publish.yml --repo "$GITHUB_REPOSITORY" --ref "$GITHUB_REF_NAME" \
-            -f releaseTicket="$RELEASE_TICKET" -f releaseNotes="$RELEASE_NOTES" \
-            -f shouldReleaseBOM=${{ inputs.shouldReleaseBOM }} -f shouldReleaseCatalog=${{ inputs.shouldReleaseCatalog }}
+          kotlin .github/scripts/notify-release.main.kts "$RELEASE_NOTES"
