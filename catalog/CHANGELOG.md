@@ -1,6 +1,14 @@
 # Release Date
 
 ## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#7th-october-2026)
+- [minor] moe-android-sdk updated to 15.04.00
+- [patch] inapp updated to 11.2.3
+- [patch] push-amp updated to 7.0.1
+- [patch] realtime-trigger updated to 5.0.2
+- [minor] rich-notification updated to 7.2.0
+- [minor] moengage-segment-kotlin-destination updated to 4.4.0
+- [minor] mparticle-android-integration-moengage updated to 3.4.0
 
 - [patch] `firebase-messaging` library version updated to `25.1.2`
 
