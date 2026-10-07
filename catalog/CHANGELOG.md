@@ -1,3 +1,8 @@
+# Release Date
+
+## Release Version
+
+- [patch] `firebase-messaging` library version updated to `25.1.2`
 
 # 23-09-2026
 

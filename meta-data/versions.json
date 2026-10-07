@@ -20,7 +20,7 @@
     },
     "externals": {
         "core": "1.16.0",
-        "firebase-messaging": "25.0.1",
+        "firebase-messaging": "25.1.2",
         "lifecycle-process": "2.10.0",
         "play-services-ads-identifier": "18.3.0",
         "appcompat": "1.7.1",
