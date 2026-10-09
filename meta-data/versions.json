@@ -6,18 +6,18 @@
         "inapp": "11.2.3",
         "mparticle-android-integration-moengage": "3.4.0",
         "inbox-ui": "5.0.0",
+        "recommendations": "1.0.0",
         "cards-ui": "4.1.1",
         "security": "5.0.0",
         "rich-notification": "7.2.0",
-        "personalization-core": "2.1.1",
+        "personalization-core": "2.2.0",
         "push-amp": "7.0.1",
         "cards-core": "4.0.2",
         "realtime-trigger": "5.0.2",
         "inbox-core": "5.0.1",
         "hms-pushkit": "7.1.0",
         "moengage-segment-kotlin-destination": "4.4.0",
-        "cards-ui-compose": "1.0.0",
-        "recommendations": "1.0.0"
+        "cards-ui-compose": "1.0.0"
     },
     "externals": {
         "core": "1.16.0",
