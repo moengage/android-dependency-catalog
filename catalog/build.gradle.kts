@@ -51,6 +51,7 @@ catalog {
         library("moengageSegmentKotlinDestination", "com.moengage", "moengage-segment-kotlin-destination").version(getVersion("moengage-segment-kotlin-destination"))
         library("encryptedStorage", "com.moengage", "encrypted-storage").version(getVersion("encrypted-storage"))
         library("moengageMparticleKit", "com.moengage", "mparticle-android-integration-moengage").version(getVersion("mparticle-android-integration-moengage"))
+        library("recommendations", "com.moengage", "recommendations").version(getVersion("recommendations"))
         bundle(
             "all", listOf(
                 "core",

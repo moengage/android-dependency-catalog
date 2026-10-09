@@ -16,7 +16,8 @@
         "inbox-core": "5.0.1",
         "hms-pushkit": "7.1.0",
         "moengage-segment-kotlin-destination": "4.4.0",
-        "cards-ui-compose": "1.0.0"
+        "cards-ui-compose": "1.0.0",
+        "recommendations": "1.0.0"
     },
     "externals": {
         "core": "1.16.0",
