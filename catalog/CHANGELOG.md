@@ -1,9 +1,9 @@
-# Release Date
+# 09-10-2026
 
-## Release Version
+## 9.6.0
 - Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#9th-october-2026)
-- [minor] personalization-core updated to 2.2.0
-- [patch] recommendations 1.0.0 added
+- personalization-core updated to 2.2.0
+- recommendations 1.0.0 added
 
 
 # 07-10-2026
