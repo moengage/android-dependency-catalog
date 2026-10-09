@@ -1,3 +1,10 @@
+# Release Date
+
+## Release Version
+- Release notes [here](https://www.moengage.com/docs/release-notes/sdks/android#7th-october-2026)
+- [patch] recommendations updated to 1.0.0
+
+
 # 07-10-2026
 
 ## 9.5.0

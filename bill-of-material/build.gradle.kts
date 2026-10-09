@@ -50,5 +50,6 @@ dependencies {
         api("com.moengage:moengage-segment-kotlin-destination:${getVersion("moengage-segment-kotlin-destination")}")
         api("com.moengage:encrypted-storage:${getVersion("encrypted-storage")}")
         api("com.moengage:mparticle-android-integration-moengage:${getVersion("mparticle-android-integration-moengage")}")
+        api("com.moengage:recommendations:${getVersion("recommendations")}")
     }
 }
