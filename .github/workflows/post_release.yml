@@ -1,0 +1,69 @@
+name: Post Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      releaseTicket:
+        type: string
+        description: 'Enter the Release ticket number'
+        required: true
+      releaseNotes:
+        type: string
+        description: 'Enter the Release note'
+        required: true
+      shouldReleaseBOM:
+        type: boolean
+        description: 'Should release BOM?'
+        default: true
+      shouldReleaseCatalog:
+        type: boolean
+        description: 'Should release Catalog?'
+        default: true
+      forceSlack:
+        type: boolean
+        description: 'Send Slack even if the GitHub releases already exist?'
+        default: false
+
+
+env:
+  GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+  RELEASE_NOTES: ${{ inputs.releaseNotes }}
+
+
+jobs:
+  post-release:
+    environment: publishing_gradle_config
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout sdk automation scripts
+        uses: actions/checkout@v3
+        with:
+          repository: moengage/sdk-automation-scripts
+          path: sdk-automation-scripts
+          token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Automation script setup
+        uses: ./sdk-automation-scripts/actions/android-repository-setup
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          path: android-dependency-catalog
+          fetch-depth: 0
+          fetch-tags: true
+          token: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
+      - name: Post Release BOM
+        id: bom
+        if: ${{ inputs.shouldReleaseBOM }}
+        working-directory: android-dependency-catalog
+        run: |
+          kotlin ../sdk-automation-scripts/scripts/android/post-release.main.kts bill-of-material bom true
+      - name: Post Release Catalog
+        id: catalog
+        if: ${{ inputs.shouldReleaseCatalog }}
+        working-directory: android-dependency-catalog
+        run: |
+          kotlin ../sdk-automation-scripts/scripts/android/post-release.main.kts catalog catalog true
+      - name: Notify Release
+        if: ${{ steps.bom.outputs.releaseCreated == 'true' || steps.catalog.outputs.releaseCreated == 'true' || inputs.forceSlack }}
+        working-directory: android-dependency-catalog
+        run: |
+          kotlin .github/scripts/notify-release.main.kts "$RELEASE_NOTES"
