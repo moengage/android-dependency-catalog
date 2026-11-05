@@ -37,7 +37,7 @@ jobs:
       fail-fast: true
     steps:
       - name: Checkout sdk automation scripts
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           repository: moengage/sdk-automation-scripts
           path: sdk-automation-scripts
@@ -45,7 +45,7 @@ jobs:
       - name: Automation script setup
         uses: ./sdk-automation-scripts/actions/android-repository-setup
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v7
         with:
           path: android-dependency-catalog
           fetch-depth: 0
