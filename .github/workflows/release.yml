@@ -19,6 +19,11 @@ on:
         type: boolean
         description: 'Should release Catalog?'
         default: true
+      moduleChecksums:
+        type: string
+        description: 'Checksums JSON of the released modules'
+        required: false
+        default: ''
 
 env:
   ORG_GRADLE_PROJECT_mavenCentralUsername: ${{ secrets.ORG_GRADLE_PROJECT_mavenCentralUsername }}
@@ -26,6 +31,7 @@ env:
   ORG_GRADLE_PROJECT_signingInMemoryKey: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKey }}
   ORG_GRADLE_PROJECT_signingInMemoryKeyId: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyId }}
   ORG_GRADLE_PROJECT_signingInMemoryKeyPassword: ${{ secrets.ORG_GRADLE_PROJECT_signingInMemoryKeyPassword }}
+  SIGNING_KEY_FINGERPRINT: ${{ vars.SIGNING_KEY_FINGERPRINT }}
   GH_TOKEN: ${{ secrets.SDK_BOT_ACCESS_TOKEN }}
 
 
@@ -54,13 +60,35 @@ jobs:
       - name: Release BOM
         if: ${{ github.event.inputs.shouldReleaseBOM }}
         working-directory: android-dependency-catalog
+        env:
+          MODULE_CHECKSUMS: ${{ github.event.inputs.moduleChecksums }}
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts bill-of-material bom ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} bill-of-material
+          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts \
+            --module=bill-of-material \
+            --tag-prefix=bom \
+            --release-ticket=${{ github.event.inputs.releaseTicket }} \
+            --multi-module=true \
+            --create-release=true \
+            --changelog-link=${{ github.event.inputs.releaseNotes }} \
+            --changelog-path=bill-of-material \
+            --signing-key-fingerprint="$SIGNING_KEY_FINGERPRINT" \
+            --module-checksums="$MODULE_CHECKSUMS"
       - name: Release Catalog
         if: ${{ github.event.inputs.shouldReleaseCatalog }}
         working-directory: android-dependency-catalog
+        env:
+          MODULE_CHECKSUMS: ${{ github.event.inputs.moduleChecksums }}
         run: |
-          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts catalog catalog ${{ github.event.inputs.releaseTicket }} true true ${{ github.event.inputs.releaseNotes }} catalog
+          kotlin ../sdk-automation-scripts/scripts/android/single-module-release.main.kts \
+            --module=catalog \
+            --tag-prefix=catalog \
+            --release-ticket=${{ github.event.inputs.releaseTicket }} \
+            --multi-module=true \
+            --create-release=true \
+            --changelog-link=${{ github.event.inputs.releaseNotes }} \
+            --changelog-path=catalog \
+            --signing-key-fingerprint="$SIGNING_KEY_FINGERPRINT" \
+            --module-checksums="$MODULE_CHECKSUMS"
       - name: Notify Release
         working-directory: android-dependency-catalog
         run: |
